@@ -139,11 +139,11 @@ export const branches = [
   {
     id: 4,
     name: "Chanoly Smoothie & Noodle | Bole Airport",
-    shortName: "Bole Airport Branch",
+    shortName: "Bole Friendship Branch",
     address:
       "Bole Airport Rd, Around FriendShip Hotel Kidus Bldg 3rd floor, Addis Ababa",
     mapLink: "https://share.google/Gq8RwlfO7dittqCsO",
-    image: "/placeholder.svg?height=300&width=400&text=Bole+Airport+Branch",
+    image: "/placeholder.svg?height=300&width=400&text=Bole+Friendship+Branch",
   },
   {
     id: 5,
@@ -172,11 +172,11 @@ export const branches = [
   {
     id: 8,
     name: "Chanoly Noodle - near Bole Airport | ቻኖሊ ኖድል ቦሌ አየር መንገድ",
-    shortName: "Near Bole Airport Branch",
+    shortName: "Bole Airport Branch",
     address: "2221 Cameroon St, Addis Ababa",
     mapLink: "https://share.google/b6phpKncuFQminUuI",
     image:
-      "/placeholder.svg?height=300&width=400&text=Near+Bole+Airport+Branch",
+      "/placeholder.svg?height=300&width=400&text=Bole+Airport+Branch",
   },
 ];
 
@@ -208,11 +208,11 @@ export const contactBranches: ContactBranch[] = [
   {
     id: 4,
     name: "Chanoly Smoothie & Noodle | Bole Airport",
-    shortName: "Bole Airport Branch",
+    shortName: "Bole Friendship Branch",
     address:
       "Bole Airport Rd, Around FriendShip Hotel Kidus Bldg 3rd floor, Addis Ababa",
     phone: "+25190 929 7728",
-    image: "/placeholder.svg?height=300&width=400&text=Bole+Airport+Branch",
+    image: "/placeholder.svg?height=300&width=400&text=Bole+Friendship+Branch",
   },
   {
     id: 5,
@@ -241,10 +241,10 @@ export const contactBranches: ContactBranch[] = [
   {
     id: 8,
     name: "Chanoly Noodle - near Bole Airport | ቻኖሊ ኖድል ቦሌ አየር መንገድ",
-    shortName: "Near Bole Airport Branch",
+    shortName: "Bole Airport Branch",
     address: "2221 Cameroon St, Addis Ababa",
     phone: "+25196 802 9800",
     image:
-      "/placeholder.svg?height=300&width=400&text=Near+Bole+Airport+Branch",
+      "/placeholder.svg?height=300&width=400&text=Bole+Airport+Branch",
   },
 ];
