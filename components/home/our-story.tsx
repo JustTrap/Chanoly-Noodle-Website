@@ -33,7 +33,7 @@ export function HomeOurStory() {
         {/* Left Side - Full Height Image */}
         <div className="relative group overflow-hidden h-64 md:h-auto">
           <Image
-            src="/images/our-story-shared-dining.jpg"
+            src="/images/homepage-ourstory.jpg"
             alt="Chanoly's story - shared dining experience with sizzling dishes and fresh beverages"
             fill
             sizes="(max-width: 768px) 100vw, 50vw"
