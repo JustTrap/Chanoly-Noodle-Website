@@ -26,7 +26,7 @@ export function HomeHero({ onOpenFullMenu }: Props) {
           />
           {/* Fallback image if video fails to load */}
           <Image
-            src="/images/hero-noodles-bg.webp"
+            src="/images/menu-background.jpg"
             alt="Delicious stir-fried noodles"
             fill
             sizes="100vw"
