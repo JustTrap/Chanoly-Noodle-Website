@@ -1,0 +1,2 @@
+[33m8f2786f[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m Optimize image loading performance across website - Add Next.js Image optimization features - Implement custom CSS loading animations - Apply image optimization to homepage, about, branches, and contact pages - Update next.config.mjs for better image handling - Add loading shimmer effects and performance optimizations
+[33mb05734f[m Initial commit: Chanoly restaurant website with Next.js, Tailwind CSS, and custom components

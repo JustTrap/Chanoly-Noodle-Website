@@ -1,0 +1,250 @@
+import { ContactBranch } from "@/components/contact/BranchContactsGrid";
+
+export const menuData = [
+  {
+    category: "SOUP",
+    items: [
+      { name: "EGG NOODLE SOUP", price: "400" },
+      { name: "HOT & SOUR SOUP", price: "380" },
+      { name: "CHICKEN NOODLES SOUP", price: "500" },
+    ],
+  },
+  {
+    category: "SALAD",
+    items: [
+      { name: "NORMAL SALAD HALF/FULL", price: "490/650" },
+      { name: "FISH SALAD HALF/FULL", price: "530/690" },
+      { name: "BEEF SALAD HALF/FULL", price: "550/700" },
+      { name: "CHICKEN SALAD HALF/FULL", price: "580/730" },
+      { name: "COMBO SALAD HALF/FULL", price: "590/740" },
+    ],
+  },
+  {
+    category: "NOODLES",
+    items: [
+      { name: "STIR FRY VEGETABLE NOODLE", price: "610" },
+      { name: "STIR FRY FISH NOODLE", price: "650" },
+      { name: "STIR FRY BEEF NOODLE", price: "670" },
+      { name: "STIR FRY CHICKEN NOODLE", price: "690" },
+      { name: "STIR FRY COMBO NOODLE", price: "710" },
+    ],
+  },
+  {
+    category: "RICE",
+    items: [
+      { name: "VEGETABLE FRIED RICE", price: "560" },
+      { name: "FISH FRIED RICE", price: "600" },
+      { name: "BEEF FRIED RICE", price: "620" },
+      { name: "CHICKEN FRIED RICE", price: "640" },
+      { name: "COMBO RICE", price: "680" },
+    ],
+  },
+  {
+    category: "SIZZLING",
+    items: [
+      { name: "CHICKEN SIZZLING", price: "990" },
+      { name: "BEEF SIZZLING", price: "970" },
+      { name: "FISH SIZZLING", price: "790" },
+      { name: "CHICKEN LOLLIPOP", price: "850" },
+    ],
+  },
+  {
+    category: "VEGGIE CORNER",
+    items: [
+      { name: "BROCCOLI GARLIC", price: "520" },
+      { name: "FRIED CORN", price: "520" },
+      { name: "FRIED TOFU", price: "540" },
+      { name: "EASY SAUTEED SPINACH WITH BROCCOLI", price: "520" },
+      { name: "MIXED VEGETABLE", price: "510" },
+    ],
+  },
+  {
+    category: "SMOOTHIE",
+    items: [
+      { name: "CHANOLY BEST", price: "220" },
+      { name: "AVOCADO BANANA", price: "220" },
+      { name: "CHOCOLATE PEANUT BUTTER", price: "220" },
+      { name: "CLASSIC STRAWBERRY", price: "220" },
+      { name: "BUTTER MILK BANANA", price: "220" },
+      { name: "GREEN SMOOTHIE", price: "220" },
+      { name: "BANANA BREAKFAST", price: "220" },
+      { name: "SWEET SUMMER", price: "220" },
+      { name: "PEANUT BANANA ESPRESSO", price: "220" },
+    ],
+  },
+  {
+    category: "VARIETY",
+    items: [
+      { name: "PEANUT CHICKEN", price: "990" },
+      { name: "BEEF BROCCOLI", price: "810" },
+      { name: "SWEET AND SOUR CHICKEN", price: "840" },
+      { name: "FRIED CORN WITH CHICKEN", price: "650" },
+    ],
+  },
+  {
+    category: "MOJITO",
+    items: [
+      { name: "CLASSIC MOJITO/WITH RUM", price: "200/450" },
+      { name: "STRAWBERRY MOJITO/WITH RUM", price: "200/450" },
+      { name: "PINEAPPLE MOJITO/WITH RUM", price: "200/450" },
+      { name: "BLUE LAGOON MOJITO/WITH RUM", price: "200/450" },
+      { name: "ESPRESSO MOJITO/WITH RUM", price: "200/450" },
+      { name: "CINNAMON MOJITO/WITH RUM", price: "200/450" },
+      { name: "TEJ MOJITO", price: "370" },
+    ],
+  },
+  {
+    category: "EXTRAS & SIDES",
+    items: [
+      { name: "EXTRA EGG", price: "30" },
+      { name: "EXTRA FISH", price: "100" },
+      { name: "EXTRA BEEF", price: "145" },
+      { name: "EXTRA CHICKEN", price: "160" },
+      { name: "EXTRA CHILI SAUCE", price: "40" },
+      { name: "EXTRA VEGETABLE", price: "60" },
+      { name: "EXTRA RICE", price: "135" },
+      { name: "EXTRA CUP", price: "35" },
+      { name: "EXTRA RUM/GIN 25 ML", price: "250" },
+      { name: "WATER .5L / 1 LITER", price: "40/50" },
+      { name: "TAKE AWAY BOX SMALL/MEDIUM/LARGE", price: "45/55/65" },
+    ],
+  },
+];
+
+export const branches = [
+  {
+    id: 1,
+    name: "Chanoly Smoothie & Noodle | Sarbet | ቻኖሊ ኖድል | ሳርቤት",
+    shortName: "Sarbet Branch",
+    address: "Mela Building, Egypt St, Addis Ababa",
+    mapLink: "https://share.google/yT0U17MXF2WlEd46n",
+    image: "/placeholder.svg?height=300&width=400&text=Sarbet+Branch",
+  },
+  {
+    id: 2,
+    name: "Chanoly smoothie & noodles | Olympia | ቻኖሊ ኖድል ኦሊምፒያ",
+    shortName: "Olympia Branch",
+    address: "LEBENZ TOWER | Gazebo, Gabon St, Addis Ababa",
+    mapLink: "https://share.google/RbWBnh3yRonivwKgm",
+    image: "/placeholder.svg?height=300&width=400&text=Olympia+Branch",
+  },
+  {
+    id: 3,
+    name: "ቻኖሊ ኑድልስ - ሰሚት ቅርንጫፍ | Summit Branch",
+    shortName: "Summit Branch",
+    address: "Unnamed Road, Addis Ababa",
+    mapLink: "https://share.google/QENi23jvtxlOEDsMl",
+    image: "/placeholder.svg?height=300&width=400&text=Summit+Branch",
+  },
+  {
+    id: 4,
+    name: "Chanoly Smoothie & Noodle | Bole Airport",
+    shortName: "Bole Airport Branch",
+    address:
+      "Bole Airport Rd, Around FriendShip Hotel Kidus Bldg 3rd floor, Addis Ababa",
+    mapLink: "https://share.google/Gq8RwlfO7dittqCsO",
+    image: "/placeholder.svg?height=300&width=400&text=Bole+Airport+Branch",
+  },
+  {
+    id: 5,
+    name: "Chanoly Smoothie & noodles | Bole Medhanialem | ቻኖሊ ኑድልስ | ቦሌ መድሀኒያለም",
+    shortName: "Bole Medhanialem Branch",
+    address: "Unnamed street, Addis Ababa",
+    mapLink: "https://share.google/GCmLNdab5vui17pM7",
+    image: "/placeholder.svg?height=300&width=400&text=Bole+Medhanialem+Branch",
+  },
+  {
+    id: 6,
+    name: "Chanoly Smoothie & Noodle | Abinet | ቻኖሊ ኖድል | አቢነት",
+    shortName: "Abinet Branch",
+    address: "NOBI Building Lideta, Abinet Square, Addis Ababa",
+    mapLink: "https://share.google/DMe0BsY9cXkCgCgXQ",
+    image: "/placeholder.svg?height=300&width=400&text=Abinet+Branch",
+  },
+  {
+    id: 7,
+    name: "Chanoly Smoothie & Noodle | Lebu Branch",
+    shortName: "Lebu Branch",
+    address: "Unnamed street, Addis Ababa",
+    mapLink: "https://share.google/GT6sGsvxQ413Zb4xD",
+    image: "/placeholder.svg?height=300&width=400&text=Lebu+Branch",
+  },
+  {
+    id: 8,
+    name: "Chanoly Noodle - near Bole Airport | ቻኖሊ ኖድል ቦሌ አየር መንገድ",
+    shortName: "Near Bole Airport Branch",
+    address: "2221 Cameroon St, Addis Ababa",
+    mapLink: "https://share.google/b6phpKncuFQminUuI",
+    image:
+      "/placeholder.svg?height=300&width=400&text=Near+Bole+Airport+Branch",
+  },
+];
+
+export const contactBranches: ContactBranch[] = [
+  {
+    id: 1,
+    name: "Chanoly Smoothie & Noodle | Sarbet | ቻኖሊ ኖድል | ሳርቤት",
+    shortName: "Sarbet Branch",
+    address: "Mela Building, Egypt St, Addis Ababa",
+    phone: "+25193 646 8620",
+    image: "/placeholder.svg?height=300&width=400&text=Sarbet+Branch",
+  },
+  {
+    id: 2,
+    name: "Chanoly smoothie & noodles | Olympia | ቻኖሊ ኖድል ኦሊምፒያ",
+    shortName: "Olympia Branch",
+    address: "LEBENZ TOWER | Gazebo, Gabon St, Addis Ababa",
+    phone: "+25196 167 3377",
+    image: "/placeholder.svg?height=300&width=400&text=Olympia+Branch",
+  },
+  {
+    id: 3,
+    name: "ቻኖሊ ኑድልስ - ሰሚት ቅርንጫፍ | Summit Branch",
+    shortName: "Summit Branch",
+    address: "Unnamed Road, Addis Ababa",
+    phone: "+25198 604 0005",
+    image: "/placeholder.svg?height=300&width=400&text=Summit+Branch",
+  },
+  {
+    id: 4,
+    name: "Chanoly Smoothie & Noodle | Bole Airport",
+    shortName: "Bole Airport Branch",
+    address:
+      "Bole Airport Rd, Around FriendShip Hotel Kidus Bldg 3rd floor, Addis Ababa",
+    phone: "+25190 929 7728",
+    image: "/placeholder.svg?height=300&width=400&text=Bole+Airport+Branch",
+  },
+  {
+    id: 5,
+    name: "Chanoly Smoothie & noodles | Bole Medhanialem | ቻኖሊ ኑድልስ | ቦሌ መድሀኒያለም",
+    shortName: "Bole Medhanialem Branch",
+    address: "Unnamed street, Addis Ababa",
+    phone: "+25192 734 9509",
+    image: "/placeholder.svg?height=300&width=400&text=Bole+Medhanialem+Branch",
+  },
+  {
+    id: 6,
+    name: "Chanoly Smoothie & Noodle | Abinet | ቻኖሊ ኖድል | አቢነት",
+    shortName: "Abinet Branch",
+    address: "NOBI Building Lideta, Abinet Square, Addis Ababa",
+    phone: "601",
+    image: "/placeholder.svg?height=300&width=400&text=Abinet+Branch",
+  },
+  {
+    id: 7,
+    name: "Chanoly Smoothie & Noodle | Lebu Branch",
+    shortName: "Lebu Branch",
+    address: "Unnamed street, Addis Ababa",
+    phone: "+25198 015 8220",
+    image: "/placeholder.svg?height=300&width=400&text=Lebu+Branch",
+  },
+  {
+    id: 8,
+    name: "Chanoly Noodle - near Bole Airport | ቻኖሊ ኖድል ቦሌ አየር መንገድ",
+    shortName: "Near Bole Airport Branch",
+    address: "2221 Cameroon St, Addis Ababa",
+    phone: "+25196 802 9800",
+    image:
+      "/placeholder.svg?height=300&width=400&text=Near+Bole+Airport+Branch",
+  },
+];

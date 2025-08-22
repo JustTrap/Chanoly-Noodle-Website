@@ -1,0 +1,5 @@
+[33mcf1ec73[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m)[m Move CONTACT section to ORDER NOW column in footer across all pages
+[33m8ed3268[m Update contact page text: MAIN LINE to ORDER NOW and MAIN LOCATION to MAIN OFFICE
+[33m0682f1a[m Update navigation to ORDER NOW, add gallery modal with navigation, and optimize About page background image
+[33mdc6d16c[m[33m ([m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m Update menu with actual Chanoly items and enhance about page hero section
+[33m8f2786f[m Optimize image loading performance across website - Add Next.js Image optimization features - Implement custom CSS loading animations - Apply image optimization to homepage, about, branches, and contact pages - Update next.config.mjs for better image handling - Add loading shimmer effects and performance optimizations
