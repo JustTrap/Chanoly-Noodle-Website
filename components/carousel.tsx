@@ -92,7 +92,7 @@ export default function FullscreenAutoCarousel({
 
   return (
     <div
-      className={`relative w-screen h-screen overflow-hidden bg-black ${className}`}
+      className={`relative w-screen h-[80vh] overflow-hidden bg-black ${className}`}
       role="region"
       aria-roledescription="carousel"
       aria-label="Fullscreen image carousel"
@@ -189,7 +189,7 @@ export function ImageCarousel() {
   ];
 
   return (
-    <div className="h-screen w-screen">
+    <div className="h-[80vh] w-screen">
       <FullscreenAutoCarousel images={demo} interval={3000} />
     </div>
   );

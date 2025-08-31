@@ -11,7 +11,7 @@ export function HomeVisionMission() {
           <div className="space-y-8 md:space-y-10 max-w-lg">
             <div className="space-y-8 md:space-y-10">
               <div>
-                <h2 className="chanoly-heading text-3xl sm:text-4xl md:text-6xl text-gray-800 tracking-widest mb-6 md:mb-8 hover:text-chanoly transition-colors duration-500 font-normal">
+                <h2 className="chanoly-heading text-3xl sm:text-4xl md:text-6xl text-gray-800 tracking-widest mb-6 md:mb-8 hover:text-chanoly transition-colors duration-500 font-normal font-showg">
                   OUR VISION
                 </h2>
                 <div className="space-y-4 md:space-y-6 text-gray-600 leading-relaxed text-base md:text-lg">
@@ -24,7 +24,7 @@ export function HomeVisionMission() {
               </div>
 
               <div>
-                <h2 className="chanoly-heading text-3xl sm:text-4xl md:text-6xl text-gray-800 tracking-widest mb-6 md:mb-8 hover:text-chanoly transition-colors duration-500 font-normal">
+                <h2 className="chanoly-heading text-3xl sm:text-4xl md:text-6xl text-gray-800 tracking-widest mb-6 md:mb-8 hover:text-chanoly transition-colors duration-500 font-normal font-showg">
                   OUR MISSION
                 </h2>
                 <div className="space-y-4 md:space-y-6 text-gray-600 leading-relaxed text-base md:text-lg">

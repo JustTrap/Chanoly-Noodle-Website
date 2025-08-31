@@ -2,18 +2,18 @@
 
 export function Values() {
   return (
-    <section className="py-16 md:py-24 px-4 md:px-6 bg-gray-50">
-      <div className="max-w-6xl mx-auto">
-        <div className="text-center mb-12 md:mb-16">
-          <h2 className="chanoly-heading text-3xl md:text-5xl font-bold text-gray-800 mb-4 hover:text-chanoly transition-colors duration-500">
+    <section className="py-12 md:py-16 px-4 md:px-6 bg-gray-50">
+      <div className="max-w-5xl mx-auto">
+        <div className="text-center mb-8 md:mb-12">
+          <h2 className="chanoly-heading text-3xl md:text-4xl font-bold text-gray-800 mb-3 hover:text-chanoly transition-colors duration-500 font-showg">
             OUR VALUES
           </h2>
-          <p className="text-lg text-gray-600 max-w-2xl mx-auto font-bold">
+          <p className="text-base md:text-lg text-gray-600 max-w-xl mx-auto font-medium">
             The principles that guide everything we do at Chanoly
           </p>
         </div>
 
-        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 md:gap-12">
+        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8">
           {[
             {
               k: "Q",
@@ -46,14 +46,14 @@ export function Values() {
               d: "Creating welcoming environments where every customer feels valued and appreciated.",
             },
           ].map((v) => (
-            <div key={v.t} className="text-center group">
-              <div className="w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-6 group-hover:scale-110 transition-transform duration-300" style={{ backgroundColor: "rgba(45, 75, 75, 1)" }}>
-                <span className="text-chanoly text-2xl font-black">{v.k}</span>
+            <div key={v.t} className="text-center group p-4">
+              <div className="w-14 h-14 rounded-full flex items-center justify-center mx-auto mb-4 group-hover:scale-110 transition-transform duration-300 bg-chanoly">
+                <span className="text-white text-xl font-bold">{v.k}</span>
               </div>
-              <h3 className="text-xl font-bold text-gray-800 mb-4">
+                              <h3 className="text-lg font-semibold text-gray-800 mb-3 font-showg">
                 {v.t}
               </h3>
-              <p className="text-gray-600 leading-relaxed font-bold">{v.d}</p>
+              <p className="text-sm text-gray-600 leading-relaxed font-normal max-w-xs mx-auto">{v.d}</p>
             </div>
           ))}
         </div>

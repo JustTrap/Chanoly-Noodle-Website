@@ -3,32 +3,25 @@ import Image from "next/image";
 
 export function OurStory() {
   return (
-    <section className="min-h-screen relative overflow-hidden">
-      {/* Clean green background matching footer */}
-      <div className="absolute inset-0 z-0" style={{ background: "rgba(45, 75, 75, 1)" }}></div>
-
-      {/* Orange Design Elements */}
-      <div className="absolute inset-0 z-0 overflow-hidden">
-        {/* Top right orange accent */}
-        <div className="absolute top-0 right-0 w-64 h-64 bg-chanoly opacity-20 rounded-full -translate-y-32 translate-x-32"></div>
-        
-        {/* Bottom left orange accent */}
-        <div className="absolute bottom-0 left-0 w-48 h-48 bg-chanoly opacity-15 rounded-full translate-y-24 -translate-x-24"></div>
-        
-        {/* Center orange decorative element */}
-        <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-96 h-96 border-4 border-chanoly opacity-10 rounded-full"></div>
-        
-        {/* Orange corner accents */}
-        <div className="absolute top-8 right-8 w-16 h-16 bg-chanoly opacity-25 transform rotate-45"></div>
-        <div className="absolute bottom-8 left-8 w-12 h-12 bg-chanoly opacity-20 transform rotate-45"></div>
-        
-        {/* Floating orange dots */}
-        <div className="absolute top-20 left-20 w-3 h-3 bg-chanoly opacity-30 rounded-full animate-pulse"></div>
-        <div className="absolute top-32 right-32 w-2 h-2 bg-chanoly opacity-25 rounded-full animate-pulse" style={{ animationDelay: '1s' }}></div>
-        <div className="absolute bottom-32 left-32 w-4 h-4 bg-chanoly opacity-20 rounded-full animate-pulse" style={{ animationDelay: '2s' }}></div>
+    <section className="min-h-[80vh] relative overflow-hidden">
+      {/* Background Pattern Image */}
+      <div className="absolute inset-0 z-0">
+        <Image
+          src="/images/Background-Pattern.png"
+          alt="Background Pattern"
+          fill
+          sizes="100vw"
+          quality={85}
+          priority
+          className="object-cover blur-sm"
+          placeholder="blur"
+          blurDataURL="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAABAAEDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAv/xAAhEAACAQMDBQAAAAAAAAAAAAABAgMABAUGIWGRkqGx0f/EABUBAQEAAAAAAAAAAAAAAAAAAAMF/8QAGhEAAgIDAAAAAAAAAAAAAAAAAAECEgMRkf/aAAwDAQACEQMRAD8AltJagyeH0AthI5xdrLcNM91BF5pX2HaH9bcfaSXWGaRmknyJckliyjqTzSlT54b6bk+h0R//2Q=="
+        />
+        {/* Lighter overlay for better text readability */}
+        <div className="absolute inset-0 bg-white/70"></div>
       </div>
 
-      <div className="grid md:grid-cols-2 min-h-screen relative z-10">
+      <div className="grid md:grid-cols-2 min-h-[80vh] relative z-10">
         {/* Left Side - Full Height Image */}
         <div className="relative group overflow-hidden h-64 md:h-auto">
           <Image
@@ -57,27 +50,24 @@ export function OurStory() {
             <div className="relative">
               {/* Orange underline accent */}
               <div className="absolute -bottom-2 left-0 w-24 h-1 bg-chanoly rounded-full"></div>
-              <h2 className="chanoly-heading text-3xl sm:text-4xl md:text-6xl font-bold text-white tracking-widest mb-6 md:mb-8 hover:text-chanoly transition-colors duration-500 drop-shadow-lg">
+              <h2 className="chanoly-heading text-3xl sm:text-4xl md:text-6xl text-black tracking-widest mb-6 md:mb-8 transition-colors duration-500 font-bold drop-shadow-lg font-showg text-chanoly">
                 OUR STORY
               </h2>
             </div>
             
-            <div className="space-y-4 md:space-y-6 text-white leading-relaxed text-base md:text-lg drop-shadow-lg">
-              <p className="hover:text-chanoly transition-colors duration-300 font-bold relative">
-                <span className="absolute -left-4 top-2 w-2 h-2 bg-chanoly rounded-full opacity-80"></span>
+            <div className="space-y-4 md:space-y-6 leading-relaxed text-lg md:text-xl drop-shadow-lg" style={{ color: "rgba(45, 75, 75, 1)" }}>
+              <p className="transition-colors duration-300 font-bold">
                 Chanoly Smoothie and Noodles house has been serving fresh foods
                 and drinks since 2012 GC with an open Chinese style kitchen and
                 chefs with the motive of delivering healthy Asian Chinese meals
                 with the local touch.
               </p>
-              <p className="hover:text-chanoly transition-colors duration-300 font-bold relative">
-                <span className="absolute -left-4 top-2 w-2 h-2 bg-chanoly rounded-full opacity-80"></span>
+              <p className="transition-colors duration-300 font-bold">
                 We specialize in international mojitos and smoothies with local
                 fusion, creating unique flavor combinations that celebrate both
                 traditional and contemporary tastes.
               </p>
-              <p className="hover:text-chanoly transition-colors duration-300 font-bold relative">
-                <span className="absolute -left-4 top-2 w-2 h-2 bg-chanoly rounded-full opacity-80"></span>
+              <p className="transition-colors duration-300 font-bold">
                 Our restaurant is well-known for its freshly house-made
                 different types of Chinese noodles, sizzling dishes, and mixed
                 vegetables that bring authentic Asian flavors to Addis Ababa.

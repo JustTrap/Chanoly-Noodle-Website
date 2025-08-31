@@ -56,13 +56,13 @@ export function AboutHeader({
           <nav className="hidden md:flex items-center justify-center space-x-12 mx-auto order-2">
             <Link
               href="/about"
-              className="chanoly-nav hover:text-chanoly transition-all duration-300 text-base font-semibold tracking-wider hover:scale-105"
+              className="chanoly-nav hover:text-chanoly transition-all duration-300 text-base font-semibold tracking-wider hover:scale-105 font-showg"
             >
               ABOUT
             </Link>
             <button
               onClick={onOpenFullMenu}
-              className="chanoly-nav hover:text-chanoly transition-all duration-300 text-base font-semibold tracking-wider hover:scale-105"
+              className="chanoly-nav hover:text-chanoly transition-all duration-300 text-base font-semibold tracking-wider hover:scale-105 font-showg"
             >
               OUR MENU
             </button>
@@ -71,7 +71,7 @@ export function AboutHeader({
             <Link href="/" className="flex items-center group mx-8">
               <div className="w-32 h-12 md:w-40 md:h-16 transition-transform duration-300 group-hover:scale-110 flex items-center justify-center">
                 <Image
-                  src="/images/chanoly-noodle-center-logo2.png"
+                  src="/images/chanoly-noodle-center-logo21.png"
                   alt="Chanoly Noodle Logo"
                   width={160}
                   height={64}
@@ -82,13 +82,13 @@ export function AboutHeader({
 
             <Link
               href="/branches"
-              className="chanoly-nav hover:text-chanoly transition-all duration-300 text-base font-semibold tracking-wider hover:scale-105"
+              className="chanoly-nav hover:text-chanoly transition-all duration-300 text-base font-semibold tracking-wider hover:scale-105 font-showg"
             >
               BRANCHES
             </Link>
             <Link
               href="/contact"
-              className="chanoly-nav hover:text-chanoly transition-all duration-300 text-base font-semibold tracking-wider hover:scale-105"
+              className="chanoly-nav hover:text-chanoly transition-all duration-300 text-base font-semibold tracking-wider hover:scale-105 font-showg"
             >
               Contact Us
             </Link>
@@ -103,7 +103,7 @@ export function AboutHeader({
             <nav className="flex flex-col space-y-4 p-6">
               <Link
                 href="/about"
-                className="chanoly-nav hover:text-chanoly transition-all duration-300 text-base font-semibold tracking-wider py-2"
+                className="chanoly-nav hover:text-chanoly transition-all duration-300 text-base font-semibold tracking-wider py-2 font-showg"
                 onClick={() => setIsMobileMenuOpen(false)}
               >
                 ABOUT
@@ -113,20 +113,20 @@ export function AboutHeader({
                   setIsMobileMenuOpen(false);
                   onOpenFullMenu();
                 }}
-                className="chanoly-nav hover:text-chanoly transition-all duration-300 text-base font-semibold tracking-wider py-2 text-left"
+                className="chanoly-nav hover:text-chanoly transition-all duration-300 text-base font-semibold tracking-wider py-2 text-left font-showg"
               >
                 OUR MENU
               </button>
               <Link
                 href="/branches"
-                className="chanoly-nav hover:text-chanoly transition-all duration-300 text-base font-semibold tracking-wider py-2"
+                className="chanoly-nav hover:text-chanoly transition-all duration-300 text-base font-semibold tracking-wider py-2 font-showg"
                 onClick={() => setIsMobileMenuOpen(false)}
               >
                 BRANCHES
               </Link>
               <Link
                 href="/contact"
-                className="chanoly-nav hover:text-chanoly transition-all duration-300 text-base font-semibold tracking-wider py-2"
+                className="chanoly-nav hover:text-chanoly transition-all duration-300 text-base font-semibold tracking-wider py-2 font-showg"
                 onClick={() => setIsMobileMenuOpen(false)}
               >
                 Contact Us

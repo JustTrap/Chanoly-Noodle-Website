@@ -7,7 +7,7 @@ interface MenuCardProps {
 export function MenuCard({ title, items }: MenuCardProps) {
   return (
     <div className="bg-gray-50 p-4 rounded-lg">
-      <h3 className="text-2xl font-black text-chanoly mb-4 border-b-2 border-chanoly pb-2">
+      <h3 className="text-2xl font-black text-chanoly mb-4 border-b-2 border-chanoly pb-2 font-showg">
         {title}
       </h3>
       <div className="space-y-3">

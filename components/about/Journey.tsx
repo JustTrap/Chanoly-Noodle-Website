@@ -28,7 +28,7 @@ export function Journey() {
     <section className="py-16 md:py-24 px-4 md:px-6 bg-white">
       <div className="max-w-4xl mx-auto">
         <div className="text-center mb-12 md:mb-16">
-          <h2 className="chanoly-heading text-3xl md:text-5xl font-light text-gray-800 mb-4 tracking-wider hover:text-chanoly transition-colors duration-500">
+          <h2 className="chanoly-heading text-3xl md:text-5xl font-light text-gray-800 mb-4 tracking-wider hover:text-chanoly transition-colors duration-500 font-showg">
             OUR JOURNEY
           </h2>
           <p className="text-lg text-gray-600 max-w-2xl mx-auto">
@@ -46,7 +46,7 @@ export function Journey() {
                 </span>
               </div>
               <div>
-                <h3 className="text-xl font-semibold text-gray-800 mb-2">
+                <h3 className="text-xl font-semibold text-gray-800 mb-2 font-showg">
                   {item.title}
                 </h3>
                 <p className="text-gray-600 leading-relaxed">{item.text}</p>

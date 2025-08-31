@@ -12,11 +12,11 @@ type Review = {
 
 const reviews: Review[] = [
   {
-    name: "Hanan S.",
-    initial: "H",
-    date: "Sep 18, 2024",
+    name: "Yoash",
+    initial: "Y",
+    date: "Sep 16, 2019",
     stars: 5,
-    text: "LOVE. THIS. PLACE. Easily one of my favourite restaurants in Addis. Their salad is just sooo gooood. I like the noodles too (too bad the price almost doubled tho 😭)",
+    text: "Me and my friends stopped here for lunch and we're greeted and treated very good, would definitely eat here again I also wanted to add I used to work in the area and always enjoyed eating here at that time as well",
   },
   {
     name: "Opher D.",
@@ -26,11 +26,11 @@ const reviews: Review[] = [
     text: "Usually I was ordering takeaway from this place, now our first time eating in. We came during the busiest time of lunch, but still the service was impeccable... We order the house speciality bug tasty salad (amazing and satisfying) Then a few noodles dishes and chicken. Service is fast and efficient, waiters know their job well....",
   },
   {
-    name: "Yoash",
-    initial: "Y",
-    date: "Sep 16, 2019",
+    name: "Hanan S.",
+    initial: "H",
+    date: "Sep 18, 2024",
     stars: 5,
-    text: "Me and my friends stopped here for lunch and we're greeted and treated very good, would definitely eat here again I also wanted to add I used to work in the area and always enjoyed eating here at that time as well",
+    text: "LOVE. THIS. PLACE. Easily one of my favourite restaurants in Addis. Their salad is just sooo gooood. I like the noodles too (too bad the price almost doubled tho 😭)",
   },
   {
     name: "Raniya T.",
@@ -82,7 +82,7 @@ export function HomeReviews({
     <section className="py-16 md:py-24 px-4 md:px-6 bg-gray-50">
       <div className="max-w-7xl mx-auto">
         <div className="text-center mb-12 md:mb-16">
-          <h2 className="chanoly-heading text-3xl md:text-5xl font-light text-gray-800 mb-4 tracking-wider hover:text-chanoly transition-colors duration-500">
+          <h2 className="chanoly-heading text-3xl md:text-5xl font-light text-gray-800 mb-4 tracking-wider hover:text-chanoly transition-colors duration-500 font-showg">
             WHAT OUR CUSTOMERS SAY
           </h2>
           <p className="text-lg text-gray-600 max-w-2xl mx-auto">
@@ -103,7 +103,7 @@ export function HomeReviews({
                 "{r.text}"
               </p>
               <div className="flex items-center">
-                <div className="w-12 h-12 rounded-full flex items-center justify-center mr-4" style={{ backgroundColor: "rgba(45, 75, 75, 1)" }}>
+                <div className="w-12 h-12 rounded-full flex items-center justify-center mr-4" style={{ backgroundColor: "rgb(249, 115, 22)" }}>
                   <span className="text-white font-semibold text-lg">
                     {r.initial}
                   </span>
@@ -119,9 +119,9 @@ export function HomeReviews({
           {/* Call to Action */}
           <div className="col-span-full text-center mt-16 md:mt-20 mb-8">
             <div className="max-w-4xl mx-auto px-4">
-              <h3 className="text-3xl sm:text-4xl md:text-6xl font-semibold text-gray-800 mb-6 tracking-wide" style={{ fontFamily: 'var(--font-fredoka), sans-serif' }}>
-                Ready to Create Your Own Experience?
-              </h3>
+                              <h3 className="text-3xl sm:text-4xl md:text-6xl font-semibold text-gray-800 mb-6 tracking-wide font-showg">
+                  Ready to Create Your Own Experience?
+                </h3>
               <p className="text-lg md:text-xl text-gray-600 mb-10 max-w-3xl mx-auto leading-relaxed">
                 Join thousands of satisfied customers who have made Chanoly
                 their favorite dining destination.

@@ -110,27 +110,7 @@ export function HomeScrollMenu({
               >
                 CONTACT US
               </Link>
-              <div className="border-t border-white/20 pt-3 mt-3">
-                <Button
-                  className="w-full text-xs font-bold tracking-wider transition-all duration-300 hover:scale-105 rounded-lg"
-                  style={{
-                    backgroundColor: "rgb(249, 115, 22)",
-                    color: "rgba(45, 75, 75, 1)",
-                  }}
-                  onMouseEnter={(e) => {
-                    e.currentTarget.style.backgroundColor =
-                      "rgba(45, 75, 75, 1)";
-                    e.currentTarget.style.color = "rgb(249, 115, 22)";
-                  }}
-                  onMouseLeave={(e) => {
-                    e.currentTarget.style.backgroundColor = "rgb(249, 115, 22)";
-                    e.currentTarget.style.color = "rgba(45, 75, 75, 1)";
-                  }}
-                  onClick={() => setIsMobileMenuOpen(false)}
-                >
-                  VISIT & TASTE
-                </Button>
-              </div>
+
             </nav>
           </div>
         )}

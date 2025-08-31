@@ -6,7 +6,7 @@ export function ContactCTA() {
   return (
     <section className="py-16 md:py-24 px-4 md:px-6 bg-gradient-to-br from-chanoly to-chanoly text-white">
       <div className="max-w-4xl mx-auto text-center">
-        <h2 className="chanoly-heading text-3xl md:text-5xl font-light mb-6 tracking-wider">
+        <h2 className="chanoly-heading text-3xl md:text-5xl font-light mb-6 tracking-wider font-showg">
           READY TO VISIT?
         </h2>
         <p className="text-lg md:text-xl mb-8 opacity-90 max-w-2xl mx-auto leading-relaxed">

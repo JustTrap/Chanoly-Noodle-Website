@@ -58,7 +58,7 @@ export function Header() {
           <Link href="/" className="flex items-center group md:hidden order-2">
             <div className="w-10 h-6 mr-2 transition-transform duration-300 group-hover:scale-110">
               <Image
-                src="/images/chanoly-logo.png"
+                src="/images/chanoly-noodle-center-logo21.png"
                 alt="Chanoly Noodle Logo"
                 width={40}
                 height={24}
@@ -71,13 +71,13 @@ export function Header() {
           <nav className="hidden md:flex items-center justify-center space-x-12 mx-auto">
             <Link
               href="/about"
-              className="chanoly-nav hover:text-chanoly transition-all duration-300 text-base font-semibold tracking-wider hover:scale-105"
+              className="chanoly-nav hover:text-chanoly transition-all duration-300 text-base font-semibold tracking-wider hover:scale-105 font-showg"
             >
               ABOUT
             </Link>
             <button
               onClick={() => setIsFullMenuOpen(true)}
-              className="chanoly-nav hover:text-chanoly transition-all duration-300 text-base font-semibold tracking-wider hover:scale-105"
+              className="chanoly-nav hover:text-chanoly transition-all duration-300 text-base font-semibold tracking-wider hover:scale-105 font-showg"
             >
               OUR MENU
             </button>
@@ -86,7 +86,7 @@ export function Header() {
             <Link href="/" className="flex items-center group mx-8">
               <div className="w-32 h-12 md:w-40 md:h-16 transition-transform duration-300 group-hover:scale-110 flex items-center justify-center">
                 <Image
-                  src="/images/chanoly-noodle-center-logo2.png"
+                  src="/images/chanoly-noodle-center-logo21.png"
                   alt="Chanoly Noodle Logo"
                   width={160}
                   height={64}
@@ -97,13 +97,13 @@ export function Header() {
 
             <Link
               href="/branches"
-              className="chanoly-nav hover:text-chanoly transition-all duration-300 text-base font-semibold tracking-wider hover:scale-105"
+              className="chanoly-nav hover:text-chanoly transition-all duration-300 text-base font-semibold tracking-wider hover:scale-105 font-showg"
             >
               BRANCHES
             </Link>
             <Link
               href="/contact"
-              className="chanoly-nav hover:text-chanoly transition-all duration-300 text-base font-semibold tracking-wider hover:scale-105"
+              className="chanoly-nav hover:text-chanoly transition-all duration-300 text-base font-semibold tracking-wider hover:scale-105 font-showg"
             >
               CONTACT US
             </Link>
@@ -118,7 +118,7 @@ export function Header() {
             <nav className="flex flex-col space-y-4 p-6">
               <Link
                 href="/about"
-                className="chanoly-nav hover:text-chanoly transition-all duration-300 text-base font-semibold tracking-wider py-2"
+                className="chanoly-nav hover:text-chanoly transition-all duration-300 text-base font-semibold tracking-wider py-2 font-showg"
                 onClick={() => setIsMobileMenuOpen(false)}
               >
                 ABOUT
@@ -128,13 +128,13 @@ export function Header() {
                   setIsMobileMenuOpen(false);
                   setIsFullMenuOpen(true);
                 }}
-                className="chanoly-nav hover:text-chanoly transition-all duration-300 text-base font-semibold tracking-wider py-2 text-left"
+                className="chanoly-nav hover:text-chanoly transition-all duration-300 text-base font-semibold tracking-wider py-2 text-left font-showg"
               >
                 OUR MENU
               </button>
               <Link
                 href="/branches"
-                className="chanoly-nav hover:text-chanoly transition-all duration-300 text-base font-semibold tracking-wider py-2"
+                className="chanoly-nav hover:text-chanoly transition-all duration-300 text-base font-semibold tracking-wider py-2 font-showg"
                 onClick={() => setIsMobileMenuOpen(false)}
               >
                 BRANCHES

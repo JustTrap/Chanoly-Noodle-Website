@@ -21,11 +21,11 @@ export function BranchesHero() {
 
       <div className="text-center max-w-4xl px-4 md:px-6 relative z-10">
         <h1 className="chanoly-title mb-6 tracking-wider font-semibold">
-          <span className="text-3xl sm:text-4xl md:text-6xl" style={{ fontFamily: 'var(--font-fredoka), sans-serif' }}>
+          <span className="text-3xl sm:text-4xl md:text-6xl font-showg">
             OUR
           </span>
           <br />
-          <span className="text-chanoly text-3xl sm:text-4xl md:text-6xl" style={{ fontFamily: 'var(--font-fredoka), sans-serif' }}>
+          <span className="text-chanoly text-3xl sm:text-4xl md:text-6xl font-showg">
             BRANCHES
           </span>
         </h1>

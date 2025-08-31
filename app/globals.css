@@ -1,3 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300;400;500;600;700&family=Nunito:wght@200;300;400;500;600;700;800;900&display=swap');
+
+/* SHOWG Font Import */
+@font-face {
+  font-family: 'SHOWG';
+  src: url('/fonts/SHOWG.TTF') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -68,9 +79,16 @@
     font-family: "Times New Roman", Times, serif;
   }
   
-  /* Apply Times New Roman to all text elements */
-  h1, h2, h3, h4, h5, h6, p, span, div, a, button, input, textarea, label {
+  /* Apply Times New Roman to all text elements by default with bold weight */
+  h1, h2, h3, h4, h5, h6, p, span, div, a, button, input, textarea, label, li {
     font-family: "Times New Roman", Times, serif;
+    font-weight: 600; /* Make Times New Roman text bold */
+  }
+  
+  /* Override for SHOWG font elements - less bold */
+  .font-showg {
+    font-family: 'SHOWG', cursive !important;
+    font-weight: 400 !important; /* Reduce SHOWG font weight to normal/medium */
   }
   
   /* Increase heading sizes */
@@ -663,25 +681,21 @@
 
 /* Custom font styles matching the Chanoly logo */
 .chanoly-heading {
-  font-family: var(--font-fredoka), var(--font-nunito), sans-serif;
   font-weight: 600;
   letter-spacing: 0.05em;
 }
 
 .chanoly-nav {
-  font-family: var(--font-fredoka), var(--font-nunito), sans-serif;
   font-weight: 500;
   letter-spacing: 0.1em;
 }
 
 .chanoly-title {
-  font-family: var(--font-fredoka), var(--font-nunito), sans-serif;
   font-weight: 700;
   letter-spacing: 0.05em;
 }
 
 .chanoly-subtitle {
-  font-family: var(--font-fredoka), var(--font-nunito), sans-serif;
   font-weight: 500;
   letter-spacing: 0.08em;
 }

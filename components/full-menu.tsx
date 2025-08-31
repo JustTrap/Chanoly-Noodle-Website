@@ -62,7 +62,7 @@ export function FullMenu({ isOpen, onClose }: FullMenuProps) {
           </div>
 
           <div className="sticky top-0 bg-white border-b p-4 flex justify-between items-center z-30">
-            <h2 className="text-4xl font-black text-chanoly">
+            <h2 className="text-4xl font-black text-chanoly font-showg">
               CHANOLY NOODLE MENU
             </h2>
             <Button

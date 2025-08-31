@@ -118,7 +118,7 @@ export const branches = [
     shortName: "Sarbet Branch",
     address: "Mela Building, Egypt St, Addis Ababa",
     mapLink: "https://share.google/yT0U17MXF2WlEd46n",
-    image: "/placeholder.svg?height=300&width=400&text=Sarbet+Branch",
+    image: "/images/Sarbet-Branch.jpg",
   },
   {
     id: 2,
@@ -126,7 +126,7 @@ export const branches = [
     shortName: "Olympia Branch",
     address: "LEBENZ TOWER | Gazebo, Gabon St, Addis Ababa",
     mapLink: "https://share.google/RbWBnh3yRonivwKgm",
-    image: "/placeholder.svg?height=300&width=400&text=Olympia+Branch",
+    image: "/images/Olympia-Branch.jpg",
   },
   {
     id: 3,
@@ -134,7 +134,7 @@ export const branches = [
     shortName: "Summit Branch",
     address: "Unnamed Road, Addis Ababa",
     mapLink: "https://share.google/QENi23jvtxlOEDsMl",
-    image: "/placeholder.svg?height=300&width=400&text=Summit+Branch",
+    image: "/images/Summit-Branch.jpg",
   },
   {
     id: 4,
@@ -143,7 +143,7 @@ export const branches = [
     address:
       "Bole Airport Rd, Around FriendShip Hotel Kidus Bldg 3rd floor, Addis Ababa",
     mapLink: "https://share.google/Gq8RwlfO7dittqCsO",
-    image: "/placeholder.svg?height=300&width=400&text=Bole+Friendship+Branch",
+    image: "/images/Bole-Friendship-Branch.jpg",
   },
   {
     id: 5,
@@ -151,7 +151,7 @@ export const branches = [
     shortName: "Bole Medhanialem Branch",
     address: "Unnamed street, Addis Ababa",
     mapLink: "https://share.google/GCmLNdab5vui17pM7",
-    image: "/placeholder.svg?height=300&width=400&text=Bole+Medhanialem+Branch",
+    image: "/images/Bole-Medhanialem-Branch.jpg",
   },
   {
     id: 6,
@@ -159,7 +159,7 @@ export const branches = [
     shortName: "Abinet Branch",
     address: "NOBI Building Lideta, Abinet Square, Addis Ababa",
     mapLink: "https://share.google/DMe0BsY9cXkCgCgXQ",
-    image: "/placeholder.svg?height=300&width=400&text=Abinet+Branch",
+    image: "/images/Abinet-Branch1.jpg",
   },
   {
     id: 7,
@@ -167,7 +167,7 @@ export const branches = [
     shortName: "Lebu Branch",
     address: "Unnamed street, Addis Ababa",
     mapLink: "https://share.google/GT6sGsvxQ413Zb4xD",
-    image: "/placeholder.svg?height=300&width=400&text=Lebu+Branch",
+    image: "/images/Lebu-Branch.jpg",
   },
   {
     id: 8,
@@ -176,7 +176,23 @@ export const branches = [
     address: "2221 Cameroon St, Addis Ababa",
     mapLink: "https://share.google/b6phpKncuFQminUuI",
     image:
-      "/placeholder.svg?height=300&width=400&text=Bole+Airport+Branch",
+      "/images/Bole-AirPort-Branch.jpg",
+  },
+  {
+    id: 9,
+    name: "Chanoly Noodle | Bole Bulbula Branch",
+    shortName: "Bole Bulbula Branch",
+    address: "Unnamed Road, Addis Ababa",
+    mapLink: "https://maps.app.goo.gl/EUmxsVuqDrEgNx5x9",
+    image: "/images/Bole-Bulbula-Branch1.jpg",
+  },
+  {
+    id: 10,
+    name: "Chanoly Noodle | Hawassa Branch",
+    shortName: "Hawassa Branch",
+    address: "Bensa Daye Building, Hawassa",
+    mapLink: "https://maps.app.goo.gl/mpwCu6rK81qqi7Zv8",
+    image: "/images/Hawassa-Branch.jpg",
   },
 ];
 
@@ -187,7 +203,7 @@ export const contactBranches: ContactBranch[] = [
     shortName: "Sarbet Branch",
     address: "Mela Building, Egypt St, Addis Ababa",
     phone: "+25193 646 8620",
-    image: "/placeholder.svg?height=300&width=400&text=Sarbet+Branch",
+    image: "/images/Sarbet-Branch.jpg",
   },
   {
     id: 2,
@@ -195,7 +211,7 @@ export const contactBranches: ContactBranch[] = [
     shortName: "Olympia Branch",
     address: "LEBENZ TOWER | Gazebo, Gabon St, Addis Ababa",
     phone: "+25196 167 3377",
-    image: "/placeholder.svg?height=300&width=400&text=Olympia+Branch",
+    image: "/images/Olympia-Branch.jpg",
   },
   {
     id: 3,
@@ -203,7 +219,7 @@ export const contactBranches: ContactBranch[] = [
     shortName: "Summit Branch",
     address: "Unnamed Road, Addis Ababa",
     phone: "+25198 604 0005",
-    image: "/placeholder.svg?height=300&width=400&text=Summit+Branch",
+    image: "/images/Summit-Branch.jpg",
   },
   {
     id: 4,
@@ -212,7 +228,7 @@ export const contactBranches: ContactBranch[] = [
     address:
       "Bole Airport Rd, Around FriendShip Hotel Kidus Bldg 3rd floor, Addis Ababa",
     phone: "+25190 929 7728",
-    image: "/placeholder.svg?height=300&width=400&text=Bole+Friendship+Branch",
+    image: "/images/Bole-Friendship-Branch.jpg",
   },
   {
     id: 5,
@@ -220,7 +236,7 @@ export const contactBranches: ContactBranch[] = [
     shortName: "Bole Medhanialem Branch",
     address: "Unnamed street, Addis Ababa",
     phone: "+25192 734 9509",
-    image: "/placeholder.svg?height=300&width=400&text=Bole+Medhanialem+Branch",
+    image: "/images/Bole-Medhanialem-Branch.jpg",
   },
   {
     id: 6,
@@ -228,7 +244,7 @@ export const contactBranches: ContactBranch[] = [
     shortName: "Abinet Branch",
     address: "NOBI Building Lideta, Abinet Square, Addis Ababa",
     phone: "601",
-    image: "/placeholder.svg?height=300&width=400&text=Abinet+Branch",
+    image: "/images/Abinet-Branch1.jpg",
   },
   {
     id: 7,
@@ -236,7 +252,7 @@ export const contactBranches: ContactBranch[] = [
     shortName: "Lebu Branch",
     address: "Unnamed street, Addis Ababa",
     phone: "+25198 015 8220",
-    image: "/placeholder.svg?height=300&width=400&text=Lebu+Branch",
+    image: "/images/Lebu-Branch.jpg",
   },
   {
     id: 8,
@@ -245,6 +261,22 @@ export const contactBranches: ContactBranch[] = [
     address: "2221 Cameroon St, Addis Ababa",
     phone: "+25196 802 9800",
     image:
-      "/placeholder.svg?height=300&width=400&text=Bole+Airport+Branch",
+      "/images/Bole-AirPort-Branch.jpg",
+  },
+  {
+    id: 9,
+    name: "Chanoly Noodle | Bole Bulbula Branch",
+    shortName: "Bole Bulbula Branch",
+    address: "Unnamed Road, Addis Ababa",
+    phone: "+251985493231",
+    image: "/images/Bole-Bulbula-Branch1.jpg",
+  },
+  {
+    id: 10,
+    name: "Chanoly Noodle | Hawassa Branch",
+    shortName: "Hawassa Branch",
+    address: "Bensa Daye Building, Hawassa",
+    phone: "601",
+    image: "/images/Hawassa-Branch.jpg",
   },
 ];

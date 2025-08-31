@@ -8,7 +8,7 @@ export function GeneralContact() {
   return (
     <section className="py-16 md:py-24 px-4 md:px-6 bg-white">
       <div className="max-w-4xl mx-auto text-center">
-        <h2 className="chanoly-heading text-3xl md:text-5xl font-light text-gray-800 mb-8 tracking-wider">
+        <h2 className="chanoly-heading text-3xl md:text-5xl font-light text-gray-800 mb-8 tracking-wider font-showg">
           GENERAL INQUIRIES
         </h2>
 
@@ -17,7 +17,7 @@ export function GeneralContact() {
             <div className="flex items-center justify-center md:justify-start text-start">
               <Phone className="w-6 h-6 text-chanoly mr-4" />
               <div>
-                <h3 className="text-lg font-semibold text-gray-800 mb-1">
+                <h3 className="text-lg font-semibold text-gray-800 mb-1 font-showg">
                   ORDER NOW
                 </h3>
                 <Link
@@ -32,7 +32,7 @@ export function GeneralContact() {
             <div className="flex items-center justify-center md:justify-start text-start">
               <Mail className="w-6 h-6 text-chanoly mr-4" />
               <div>
-                <h3 className="text-lg font-semibold text-gray-800 mb-1">
+                <h3 className="text-lg font-semibold text-gray-800 mb-1 font-showg">
                   Email
                 </h3>
                 <Link
@@ -49,7 +49,7 @@ export function GeneralContact() {
             <div className="flex items-center justify-center md:justify-start text-start">
               <Clock className="w-6 h-6 text-chanoly mr-4" />
               <div>
-                <h3 className="text-lg font-semibold text-gray-800 mb-1">
+                <h3 className="text-lg font-semibold text-gray-800 mb-1 font-showg">
                   Operating Hours
                 </h3>
                 <p className="text-gray-600">Monday - Sunday</p>
@@ -59,7 +59,7 @@ export function GeneralContact() {
             <div className="flex items-center justify-center md:justify-start text-start">
               <MapPin className="w-6 h-6 text-chanoly mr-4" />
               <div>
-                <h3 className="text-lg font-semibold text-gray-800 mb-1 ">
+                <h3 className="text-lg font-semibold text-gray-800 mb-1 font-showg">
                   MAIN OFFICE
                 </h3>
                 <p className="text-gray-600">Meskel Flower, Sinoma building</p>

@@ -71,9 +71,10 @@ const config: Config = {
         },
       },
       fontFamily: {
-        fredoka: ["var(--font-fredoka)", "sans-serif"],
-        nunito: ["var(--font-nunito)", "sans-serif"],
+        fredoka: ["Fredoka", "sans-serif"],
+        nunito: ["Nunito", "sans-serif"],
         times: ["Times New Roman", "Times", "serif"],
+        showg: ["SHOWG", "cursive"],
       },
       borderRadius: {
         lg: "var(--radius)",

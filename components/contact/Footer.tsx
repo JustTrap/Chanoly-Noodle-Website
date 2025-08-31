@@ -11,13 +11,13 @@ export function ContactFooter() {
       style={{ background: "rgba(45, 75, 75, 1)" }}
     >
       <div className="max-w-7xl mx-auto">
-        <div className="grid grid-cols-1 md:grid-cols-5 gap-6 md:gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-6 gap-6 md:gap-8">
           {/* Logo and Description */}
           <div className="md:col-span-1">
             <div className="flex items-center mb-4">
               <div className="w-32 h-16 md:w-40 md:h-20 transition-transform duration-300 hover:scale-110 flex items-center justify-center">
                 <Image
-                  src="/images/chanoly-noodle-center-logo2.png"
+                  src="/images/chanoly-noodle-center-logo21.png"
                   alt="Chanoly Noodle Logo"
                   width={160}
                   height={64}
@@ -26,7 +26,7 @@ export function ContactFooter() {
               </div>
             </div>
             <p className="text-gray-400 text-base mb-4 leading-relaxed hover:text-gray-300 transition-colors duration-300">
-              Indulge in a culinary journey where the familiar meets the unexpected. From our savory noodle bowls to our crisp salads, each dish is a bespoke creation designed to excite your palate. Quench your thirst with our refreshing mojitos and handcrafted smoothies, the perfect complement to your meal.
+              FRESH NOODLES, BOLD FLAVORS
             </p>
             <div className="flex space-x-4">
               <Link
@@ -62,7 +62,7 @@ export function ContactFooter() {
 
           {/* Location */}
           <div>
-            <h4 className="text-lg font-medium mb-4 text-white">
+            <h4 className="text-lg font-medium mb-4 text-white font-showg">
               MAIN OFFICE LOCATION
             </h4>
             <div className="space-y-1 text-gray-400 text-sm">
@@ -80,11 +80,10 @@ export function ContactFooter() {
 
           {/* Opening Hours */}
           <div>
-            <h4 className="text-lg font-medium mb-4 text-white">
+            <h4 className="text-lg font-medium mb-4 text-white font-showg">
               OPENING HOURS
             </h4>
             <div className="text-gray-400 text-sm">
-              <p className="text-white font-medium mb-1">OPEN HOURS</p>
               <p className="hover:text-white transition-colors duration-300">
                 Monday - Sunday
               </p>
@@ -93,7 +92,7 @@ export function ContactFooter() {
 
           {/* Order Us */}
           <div>
-            <h4 className="text-lg font-medium mb-4 text-white">ORDER US</h4>
+            <h4 className="text-lg font-medium mb-4 text-white font-showg">ORDER US</h4>
             <div className="space-y-2 text-gray-400 text-sm">
               <div className="flex items-center hover:text-white transition-colors duration-300 cursor-pointer">
                 <Phone className="w-5 h-5 mr-3" />
@@ -104,11 +103,50 @@ export function ContactFooter() {
 
           {/* Contact */}
           <div>
-            <h4 className="text-lg font-medium mb-4 text-white">CONTACT US</h4>
+            <h4 className="text-lg font-medium mb-4 text-white font-showg">CONTACT US</h4>
             <div className="space-y-2 text-gray-400 text-sm">
-              <div className="flex items-center hover:text-white transition-colors duration-300 cursor-pointer">
-                <Mail className="w-5 h-5 mr-3" />
-                <span>chanolymarketing@gmail.com</span>
+              <button 
+                onClick={() => window.open('mailto:chanolymarketing@gmail.com', '_blank')}
+                className="flex items-center hover:text-white transition-all duration-300 cursor-pointer font-medium group"
+              >
+                <Mail className="w-5 h-5 mr-3 group-hover:text-chanoly transition-colors duration-300" />
+                <span className="group-hover:text-chanoly transition-colors duration-300">Email Us</span>
+              </button>
+            </div>
+          </div>
+
+          {/* QR Code and Comments Section */}
+          <div>
+            <h4 className="text-lg font-medium mb-4 text-white font-showg">FEEDBACK</h4>
+            <div className="space-y-4">
+              {/* QR Code Container - Left-aligned to match header */}
+              <div className="flex justify-start">
+                <div className="relative">
+                  {/* QR Code - Direct display without white background */}
+                  <div className="w-48 h-48 rounded-xl shadow-lg">
+                    <Image
+                      src="/images/Chanoly-QR.png"
+                      alt="Chanoly QR Code for Feedback"
+                      width={192}
+                      height={192}
+                      className="w-full h-full object-contain"
+                      priority
+                    />
+                  </div>
+                  
+                  {/* Subtle accent corner */}
+                  <div className="absolute -top-1 -right-1 w-3 h-3 bg-chanoly rounded-full opacity-60"></div>
+                </div>
+              </div>
+              
+              {/* Text Section - Left-aligned to match header */}
+              <div className="space-y-2 text-left">
+                <p className="text-white text-sm font-semibold leading-tight">
+                  For any Comments and Recommendations
+                </p>
+                <p className="text-gray-300 text-xs font-medium">
+                  Scan to provide feedback
+                </p>
               </div>
             </div>
           </div>

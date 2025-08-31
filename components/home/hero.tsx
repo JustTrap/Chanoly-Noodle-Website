@@ -43,28 +43,28 @@ export function HomeHero({ onOpenFullMenu }: Props) {
 
       <div className="text-center max-w-5xl px-4 md:px-6 relative z-10">
         <div className="animate-fade-in-up">
-          <h1 className="chanoly-title mb-3 md:mb-4 tracking-normal opacity-0 animate-slide-up font-bold">
-            <span className="text-3xl sm:text-4xl md:text-6xl font-bold" style={{ fontFamily: 'var(--font-fredoka), sans-serif' }}>
-              WELCOME TO
-            </span>
-            <br />
-            <span className="text-chanoly hover:text-chanoly-dark transition-colors duration-500 font-bold text-3xl sm:text-4xl md:text-6xl" style={{ fontFamily: 'var(--font-fredoka), sans-serif' }}>
-              Chanoly Noodle
-            </span>
-          </h1>
+                      <h1 className="chanoly-title mb-3 md:mb-4 tracking-normal opacity-0 animate-slide-up">
+              <span className="text-3xl sm:text-4xl md:text-6xl font-showg">
+                WELCOME TO
+              </span>
+              <br />
+              <span className="text-chanoly hover:text-chanoly-dark transition-colors duration-500 text-3xl sm:text-4xl md:text-6xl font-showg">
+                Chanoly Noodle
+              </span>
+            </h1>
         </div>
         <div className="animate-fade-in-up animation-delay-300">
-          <p className="text-5xl sm:text-6xl md:text-7xl lg:text-8xl mb-6 md:mb-8 max-w-5xl mx-auto leading-tight opacity-95 px-4 font-black tracking-wide drop-shadow-lg">
-            <span className="text-chanoly hover:text-[rgba(45,75,75,1)] transition-colors duration-300 cursor-pointer font-bold">FRESH NOODLES</span><span className="text-white hover:text-[rgba(45,75,75,1)] transition-colors duration-300 cursor-pointer font-bold">, BOLD FLAVORS</span>
+                                <p className="text-5xl sm:text-6xl md:text-7xl lg:text-8xl mb-6 md:mb-8 max-w-5xl mx-auto leading-tight opacity-95 px-4 tracking-wide drop-shadow-lg">
+            <span className="text-white">FRESH NOODLES, BOLD FLAVORS</span>
           </p>
         </div>
         <div className="flex flex-col sm:flex-row gap-3 md:gap-6 justify-center animate-fade-in-up animation-delay-600 px-4">
-          <Button className="border text-chanoly border-chanoly px-3 py-0.5 md:px-6 md:py-2 tracking-wider transition-all duration-300 hover:scale-105  rounded-none text-xs font-black bg-transparent hover:bg-transparent">
+          <Button className="border text-chanoly border-chanoly px-3 py-0.5 md:px-6 md:py-2 tracking-wider transition-all duration-300 hover:scale-105 rounded-none text-xs font-black bg-transparent hover:bg-white hover:text-chanoly">
             DISCOVER MORE
           </Button>
           <Button
             variant="outline"
-            className="border-chanoly text-chanoly px-3 py-0.5 md:px-6 md:py-2 bg-transparent tracking-wider transition-all duration-300 hover:scale-105 rounded-none text-xs font-black hover:bg-transparent hover:text-chanoly"
+            className="border-chanoly text-chanoly px-3 py-0.5 md:px-6 md:py-2 bg-transparent tracking-wider transition-all duration-300 hover:scale-105 rounded-none text-xs font-black hover:bg-white hover:text-chanoly"
             onClick={() => onOpenFullMenu?.()}
           >
             VISIT & TASTE

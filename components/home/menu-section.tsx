@@ -25,13 +25,13 @@ export function HomeMenuSection({ onOpenFullMenu }: Props) {
         {/* Left Side - Title */}
         <div className="flex items-center justify-center p-6 md:p-12">
           <div className="text-center md:text-left max-w-lg">
-            <h2 className="chanoly-title text-4xl sm:text-5xl md:text-7xl font-bold mb-4 tracking-wider">
+            <h2 className="chanoly-title text-4xl sm:text-5xl md:text-7xl mb-4 tracking-wider font-showg">
               OUR
             </h2>
-            <h3 className="chanoly-title text-3xl sm:text-4xl md:text-6xl font-normal tracking-widest text-chanoly">
+            <h3 className="chanoly-title text-3xl sm:text-4xl md:text-6xl font-normal tracking-widest text-chanoly font-showg">
               SELECTED
             </h3>
-            <h3 className="chanoly-title text-3xl sm:text-4xl md:text-6xl font-normal tracking-widest">
+            <h3 className="chanoly-title text-3xl sm:text-4xl md:text-6xl font-normal tracking-widest font-showg">
               MENUS
             </h3>
             <p className="text-gray-300 mt-4 md:mt-8 text-base md:text-lg leading-relaxed">
