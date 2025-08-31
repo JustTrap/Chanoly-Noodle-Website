@@ -17,7 +17,7 @@ type Props = {
   className?: string;
 };
 
-export default function FullscreenAutoCarousel({
+function FullscreenAutoCarousel({
   images,
   interval = 4000,
   showIndicators = true,
@@ -169,8 +169,11 @@ export default function FullscreenAutoCarousel({
   );
 }
 
-export function ImageCarousel() {
-  const demo = [
+const MemoizedFullscreenAutoCarousel = React.memo(FullscreenAutoCarousel);
+export default MemoizedFullscreenAutoCarousel;
+
+export const ImageCarousel = React.memo(function ImageCarousel() {
+  const demo = useMemo(() => [
     {
       src: "/images/carousel-1.jpg",
       alt: "Chanoly Noodle Restaurant Interior",
@@ -186,11 +189,11 @@ export function ImageCarousel() {
       alt: "Chanoly Dining Experience",
       caption: "Where tradition meets innovation",
     },
-  ];
+  ], []);
 
   return (
     <div className="h-[80vh] w-screen">
-      <FullscreenAutoCarousel images={demo} interval={3000} />
+      <MemoizedFullscreenAutoCarousel images={demo} interval={3000} />
     </div>
   );
-}
+});

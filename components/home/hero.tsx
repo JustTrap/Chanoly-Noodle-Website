@@ -7,7 +7,7 @@ type Props = {
   onOpenFullMenu?: () => void;
 };
 
-export function HomeHero({ onOpenFullMenu }: Props) {
+export const HomeHero = React.memo(function HomeHero({ onOpenFullMenu }: Props) {
   return (
     <section className="relative h-screen flex items-center justify-center text-white overflow-hidden">
       {/* Video Background */}
@@ -17,6 +17,7 @@ export function HomeHero({ onOpenFullMenu }: Props) {
           muted
           loop
           playsInline
+          preload="metadata"
           className="w-full h-full object-cover"
           poster="/placeholder.svg?height=1080&width=1920&text=Chanoly+Restaurant"
         >
@@ -30,11 +31,12 @@ export function HomeHero({ onOpenFullMenu }: Props) {
             alt="Delicious stir-fried noodles"
             fill
             sizes="100vw"
-            quality={85}
-            priority
+            quality={75}
+            priority={false}
             className="object-cover hero-image image-optimized"
             placeholder="blur"
             blurDataURL="data:image/webp;base64,UklGRiQAAABXRUJQVlA4IBgAAAAwAQCdASoBAAADsAD+JaQAA3AAAAAA"
+            loading="lazy"
           />
         </video>
         {/* Dark overlay for better text readability */}
@@ -73,4 +75,4 @@ export function HomeHero({ onOpenFullMenu }: Props) {
       </div>
     </section>
   );
-}
+});
