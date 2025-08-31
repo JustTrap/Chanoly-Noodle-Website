@@ -28,7 +28,9 @@ export function HomeSpecialOffers() {
               width={400}
               height={400}
               className="w-full h-full object-cover rounded-2xl"
-              priority
+              priority={false}
+              quality={60}
+              loading="lazy"
             />
             {/* Subtle overlay for depth */}
             <div className="absolute inset-0 bg-gradient-to-br from-white/5 to-transparent rounded-2xl"></div>

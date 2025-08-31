@@ -2,6 +2,7 @@
 
 import React, { useEffect, useMemo, useRef, useState } from "react";
 import { motion, PanInfo } from "framer-motion";
+import Image from "next/image";
 
 export type CarouselImage = {
   src: string;
@@ -111,12 +112,18 @@ function FullscreenAutoCarousel({
         {(count > 0 ? images : [{ src: "", alt: "" }]).map((img, i) => (
           <div key={i} className="relative min-w-full h-full select-none">
             {img.src ? (
-              // eslint-disable-next-line @next/next/no-img-element
-              <img
+              <Image
                 src={img.src}
                 alt={img.alt ?? `Slide ${i + 1}`}
+                fill
+                sizes="100vw"
+                quality={50}
+                priority={false}
                 className="h-full w-full object-cover"
-                draggable={false}
+                placeholder="blur"
+                blurDataURL="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAABAAEDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAv/xAAhEAACAQMDBQAAAAAAAAAAAAABAgMABAUGIWGRkqGx0f/EABUBAQEAAAAAAAAAAAAAAAAAAAMF/8QAGhEAAgIDAAAAAAAAAAAAAAAAAAECEgMRkf/aAAwDAQACEQMRAD8AltJagyeH0AthI5xdrLcNM91BF5pX2HaH9bcfaSXWGaRmknyJckliyjqTzSlT54b6bk+h0R//2Q=="
+                loading="lazy"
+                unoptimized={false}
               />
             ) : (
               <div className="h-full w-full grid place-items-center text-white/70">

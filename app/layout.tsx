@@ -51,6 +51,12 @@ export default function RootLayout({
           crossOrigin="anonymous"
         />
         <link
+          rel="preload"
+          href="/images/Background-Pattern.png"
+          as="image"
+          type="image/png"
+        />
+        <link
           rel="dns-prefetch"
           href="//fonts.googleapis.com"
         />

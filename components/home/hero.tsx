@@ -31,7 +31,7 @@ export const HomeHero = React.memo(function HomeHero({ onOpenFullMenu }: Props) 
             alt="Delicious stir-fried noodles"
             fill
             sizes="100vw"
-            quality={75}
+            quality={50}
             priority={false}
             className="object-cover hero-image image-optimized"
             placeholder="blur"

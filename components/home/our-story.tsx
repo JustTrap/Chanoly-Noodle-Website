@@ -5,26 +5,24 @@ import React from "react";
 export function HomeOurStory() {
   return (
     <section className="min-h-[80vh] relative overflow-hidden">
-              {/* Background Pattern Image */}
-        <div className="absolute inset-0 z-0">
-          <Image
-            src="/images/Background-Pattern.png"
-            alt="Background Pattern"
-            fill
-            sizes="100vw"
-            quality={30}
-            priority={false}
-            className="object-cover blur-sm"
-            placeholder="blur"
-            blurDataURL="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAABAAEDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAv/xAAhEAACAQMDBQAAAAAAAAAAAAABAgMABAUGIWGRkqGx0f/EABUBAQEAAAAAAAAAAAAAAAAAAAMF/8QAGhEAAgIDAAAAAAAAAAAAAAAAAAECEgMRkf/aAAwDAQACEQMRAD8AltJagyeH0AthI5xdrLcNM91BF5pX2HaH9bcfaSXWGaRmknyJckliyjqTzSlT54b6bk+h0R//2Q=="
-            loading="lazy"
-            unoptimized={false}
-          />
-          {/* Lighter overlay for better text readability */}
-          <div className="absolute inset-0 bg-white/70"></div>
-        </div>
-
-
+      {/* Optimized Background Pattern Image */}
+      <div className="absolute inset-0 z-0">
+        <Image
+          src="/images/Background-Pattern.png"
+          alt="Background Pattern"
+          fill
+          sizes="100vw"
+          quality={20}
+          priority={false}
+          className="object-cover blur-sm"
+          placeholder="blur"
+          blurDataURL="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAABAAEDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAv/xAAhEAACAQMDBQAAAAAAAAAAAAABAgMABAUGIWGRkqGx0f/EABUBAQEAAAAAAAAAAAAAAAAAAAMF/8QAGhEAAgIDAAAAAAAAAAAAAAAAAAECEgMRkf/aAAwDAQACEQMRAD8AltJagyeH0AthI5xdrLcNM91BF5pX2HaH9bcfaSXWGaRmknyJckliyjqTzSlT54b6bk+h0R//2Q=="
+          loading="lazy"
+          unoptimized={false}
+        />
+        {/* Lighter overlay for better text readability */}
+        <div className="absolute inset-0 bg-white/70"></div>
+      </div>
 
       <div className="grid md:grid-cols-2 min-h-[80vh] relative z-10">
         {/* Left Side - Full Height Image */}
@@ -34,11 +32,13 @@ export function HomeOurStory() {
             alt="Chanoly's story - shared dining experience with sizzling dishes and fresh beverages"
             fill
             sizes="(max-width: 768px) 100vw, 50vw"
-            quality={85}
-            priority
+            quality={60}
+            priority={false}
             className="object-cover transition-transform duration-700 group-hover:scale-110 hero-image image-optimized"
             placeholder="blur"
             blurDataURL="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAABAAEDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAv/xAAhEAACAQMDBQAAAAAAAAAAAAABAgMABAUGIWGRkqGx0f/EABUBAQEAAAAAAAAAAAAAAAAAAAMF/8QAGhEAAgIDAAAAAAAAAAAAAAAAAAECEgMRkf/aAAwDAQACEQMRAD8AltJagyeH0AthI5xdrLcNM91BF5pX2HaH9bcfaSXWGaRmknyJckliyjqTzSlT54b6bk+h0R//2Q=="
+            loading="lazy"
+            unoptimized={false}
           />
           <div className="absolute inset-0 bg-black/20 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
           
@@ -98,7 +98,7 @@ export function HomeOurStory() {
           className="w-80 h-80 object-contain"
           priority={false}
           loading="lazy"
-          quality={60}
+          quality={40}
         />
       </div>
     </section>
