@@ -22,7 +22,17 @@ const nunito = Nunito({
 export const metadata: Metadata = {
   title: "Chanoly Restaurant",
   description: "Authentic Asian cuisine in Addis Ababa",
-    generator: 'v0.app'
+  generator: 'v0.app',
+  other: {
+    'link[rel="preload"]': [
+      {
+        href: '/fonts/SHOWG.TTF',
+        as: 'font',
+        type: 'font/ttf',
+        crossOrigin: 'anonymous',
+      },
+    ],
+  },
 }
 
 export default function RootLayout({
@@ -32,6 +42,15 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className={`${fredoka.variable} ${nunito.variable}`}>
+      <head>
+        <link
+          rel="preload"
+          href="/fonts/SHOWG.TTF"
+          as="font"
+          type="font/ttf"
+          crossOrigin="anonymous"
+        />
+      </head>
       <body>
         <Suspense fallback={<div>Loading...</div>}>{children}</Suspense>
         <Analytics />

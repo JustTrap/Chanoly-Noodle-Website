@@ -12,11 +12,12 @@ export function HomeOurStory() {
             alt="Background Pattern"
             fill
             sizes="100vw"
-            quality={85}
-            priority
+            quality={60}
+            priority={false}
             className="object-cover blur-sm"
             placeholder="blur"
             blurDataURL="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAABAAEDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAv/xAAhEAACAQMDBQAAAAAAAAAAAAABAgMABAUGIWGRkqGx0f/EABUBAQEAAAAAAAAAAAAAAAAAAAMF/8QAGhEAAgIDAAAAAAAAAAAAAAAAAAECEgMRkf/aAAwDAQACEQMRAD8AltJagyeH0AthI5xdrLcNM91BF5pX2HaH9bcfaSXWGaRmknyJckliyjqTzSlT54b6bk+h0R//2Q=="
+            loading="lazy"
           />
           {/* Lighter overlay for better text readability */}
           <div className="absolute inset-0 bg-white/70"></div>
@@ -94,7 +95,9 @@ export function HomeOurStory() {
           width={300}
           height={300}
           className="w-80 h-80 object-contain"
-          priority
+          priority={false}
+          loading="lazy"
+          quality={60}
         />
       </div>
     </section>

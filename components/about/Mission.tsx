@@ -5,21 +5,22 @@ export function Mission() {
   return (
     <section className="min-h-[80vh] relative overflow-hidden">
       {/* Background Pattern Image */}
-      <div className="absolute inset-0 z-0">
-        <Image
-          src="/images/Background-Pattern.png"
-          alt="Background Pattern"
-          fill
-          sizes="100vw"
-          quality={85}
-          priority
-          className="object-cover blur-sm"
-          placeholder="blur"
-          blurDataURL="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAABAAEDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAv/xAAhEAACAQMDBQAAAAAAAAAAAAABAgMABAUGIWGRkqGx0f/EABUBAQEAAAAAAAAAAAAAAAAAAAMF/8QAGhEAAgIDAAAAAAAAAAAAAAAAAAECEgMRkf/aAAwDAQACEQMRAD8AltJagyeH0AthI5xdrLcNM91BF5pX2HaH9bcfaSXWGaRmknyJckliyjqTzSlT54b6bk+h0R//2Q=="
-        />
-        {/* Lighter overlay for better text readability */}
-        <div className="absolute inset-0 bg-white/70"></div>
-      </div>
+              <div className="absolute inset-0 z-0">
+          <Image
+            src="/images/Background-Pattern.png"
+            alt="Background Pattern"
+            fill
+            sizes="100vw"
+            quality={60}
+            priority={false}
+            className="object-cover blur-sm"
+            placeholder="blur"
+            blurDataURL="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAABAAEDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAv/xAAhEAACAQMDBQAAAAAAAAAAAAABAgMABAUGIWGRkqGx0f/EABUBAQEAAAAAAAAAAAAAAAAAAAMF/8QAGhEAAgIDAAAAAAAAAAAAAAAAAAECEgMRkf/aAAwDAQACEQMRAD8AltJagyeH0AthI5xdrLcNM91BF5pX2HaH9bcfaSXWGaRmknyJckliyjqTzSlT54b6bk+h0R//2Q=="
+            loading="lazy"
+          />
+          {/* Lighter overlay for better text readability */}
+          <div className="absolute inset-0 bg-white/70"></div>
+        </div>
 
       <div className="grid md:grid-cols-2 min-h-[80vh] relative z-10">
         {/* Left Side - Full Height Image */}
