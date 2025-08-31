@@ -2,6 +2,7 @@
 import Image from "next/image";
 import { Button } from "@/components/ui/button";
 import React from "react";
+import Link from "next/link";
 
 type Props = {
   onOpenFullMenu?: () => void;
@@ -61,9 +62,11 @@ export const HomeHero = React.memo(function HomeHero({ onOpenFullMenu }: Props) 
           </p>
         </div>
         <div className="flex flex-col sm:flex-row gap-3 md:gap-6 justify-center animate-fade-in-up animation-delay-600 px-4">
-          <Button className="border text-chanoly border-chanoly px-3 py-0.5 md:px-6 md:py-2 tracking-wider transition-all duration-300 hover:scale-105 rounded-none text-xs font-black bg-transparent hover:bg-white hover:text-chanoly">
-            DISCOVER MORE
-          </Button>
+          <Link href="/about">
+            <Button className="border text-chanoly border-chanoly px-3 py-0.5 md:px-6 md:py-2 tracking-wider transition-all duration-300 hover:scale-105 rounded-none text-xs font-black bg-transparent hover:bg-white hover:text-chanoly">
+              DISCOVER MORE
+            </Button>
+          </Link>
           <Button
             variant="outline"
             className="border-chanoly text-chanoly px-3 py-0.5 md:px-6 md:py-2 bg-transparent tracking-wider transition-all duration-300 hover:scale-105 rounded-none text-xs font-black hover:bg-white hover:text-chanoly"
