@@ -62,7 +62,7 @@ export function OurStory() {
                 Chanoly Noodles is a unique dining destination that brings together the rich flavors of Chinese, Indian, and Italian cuisines. Specializing in hybrid dishes, the restaurant blends diverse culinary traditions into a single experience, offering guests fresh, flavorful, and innovative meals that celebrate cultural fusion. Every dish is crafted with the vision of uniting global tastes while ensuring freshness and authenticity in every bite.
               </p>
               <p className="transition-colors duration-300 font-bold">
-                The name "Chanoly Noodles" carries a special meaning rooted in the founders' story. It is inspired by the combination of "Cha," a nickname for Betselot fondly known as Chappy, the co-founder and "Noli," a nickname for her son, Nolawi. Together, this name represents not only the restaurant's identity but also the family values and creativity that inspired its creation. Chanoly Noodles stands as a brand that reflects both personal heritage and a passion for bringing people together through food.
+                The name "Chanoly Noodles" carries a special meaning rooted in the founders' story. It is inspired by the combination of "Cha," a nickname for Betselot fondly known as Chappy, the co-founder and "Noly," a nickname for her son, Nolawi. Together, this name represents not only the restaurant's identity but also the family values and creativity that inspired its creation. Chanoly Noodles stands as a brand that reflects both personal heritage and a passion for bringing people together through food.
               </p>
             </div>
 

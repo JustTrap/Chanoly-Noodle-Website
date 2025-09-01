@@ -60,20 +60,10 @@ export function HomeOurStory() {
               style={{ color: "rgba(45, 75, 75, 1)" }}
             >
               <p className="transition-colors duration-300 font-bold">
-                Chanoly Smoothie and Noodles house has been serving fresh foods
-                and drinks since 2012 GC with an open Chinese style kitchen and
-                chefs with the motive of delivering healthy Asian Chinese meals
-                with the local touch.
+                Chanoly Noodles is a unique dining destination that brings together the rich flavors of Chinese, Indian, and Italian cuisines. Specializing in hybrid dishes, the restaurant blends diverse culinary traditions into a single experience, offering guests fresh, flavorful, and innovative meals that celebrate cultural fusion. Every dish is crafted with the vision of uniting global tastes while ensuring freshness and authenticity in every bite.
               </p>
               <p className="transition-colors duration-300 font-bold">
-                We specialize in international mojitos and smoothies with local
-                fusion, creating unique flavor combinations that celebrate both
-                traditional and contemporary tastes.
-              </p>
-              <p className="transition-colors duration-300 font-bold">
-                Our restaurant is well-known for its freshly house-made
-                different types of Chinese noodles, sizzling dishes, and mixed
-                vegetables that bring authentic Asian flavors to Addis Ababa.
+                The name "Chanoly Noodles" carries a special meaning rooted in the founders' story. It is inspired by the combination of "Cha," a nickname for Betselot fondly known as Chappy, the co-founder and "Noly," a nickname for her son, Nolawi. Together, this name represents not only the restaurant's identity but also the family values and creativity that inspired its creation. Chanoly Noodles stands as a brand that reflects both personal heritage and a passion for bringing people together through food.
               </p>
             </div>
 
