@@ -19,14 +19,14 @@ export function HomeSpecialOffers() {
       {/* Main Content - Grid Layout with Fixed Columns */}
       <div className="grid grid-cols-[400px_1fr] gap-16 max-w-6xl mx-auto">
         {/* Left Side - Food Image - First Column */}
-        <div className="w-[400px] h-[400px]">
-          <div className="relative overflow-hidden rounded-2xl shadow-2xl w-[400px] h-[400px]">
+        <div className="w-[400px]">
+          <div className="relative overflow-hidden rounded-2xl shadow-2xl w-[400px]">
             <Image
               src="/images/Instagram-screenshot.jpg"
               alt="Special Offers"
-              width={400}
-              height={400}
-              className="w-[400px] h-[400px] object-cover"
+              width={500}
+              height={500}
+              className="w-[400px] object-cover"
               quality={60}
               priority={true}
               loading="eager"
