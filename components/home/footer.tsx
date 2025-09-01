@@ -1,3 +1,5 @@
+"use client";
+
 import Image from "next/image";
 import { Phone, Mail, Facebook, Instagram } from "lucide-react";
 import React from "react";

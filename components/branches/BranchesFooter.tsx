@@ -1,3 +1,5 @@
+"use client";
+
 import Image from "next/image";
 import { Phone, Facebook, Instagram, Mail } from "lucide-react";
 import React from "react";
@@ -116,6 +118,8 @@ export function BranchesFooter() {
                   Email Us
                 </span>
               </button>
+            </div>
+          </div>
 
           {/* QR Code and Comments Section */}
           <div>
