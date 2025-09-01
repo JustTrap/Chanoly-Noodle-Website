@@ -24,13 +24,13 @@ export function HomeSpecialOffers() {
           <div className="relative overflow-hidden rounded-2xl shadow-2xl w-[400px] h-[400px]">
             <Image
               src="/images/Instagram-screenshot.jpg"
-              alt="Delicious Chanoly dishes and dining experience"
+              alt="Special Offers"
               width={400}
               height={400}
-              className="w-full h-full object-cover rounded-2xl"
-              priority={false}
+              className="w-[400px] h-[400px] object-cover"
               quality={60}
-              loading="lazy"
+              priority={true}
+              loading="eager"
             />
             {/* Subtle overlay for depth */}
             <div className="absolute inset-0 bg-gradient-to-br from-white/5 to-transparent rounded-2xl"></div>

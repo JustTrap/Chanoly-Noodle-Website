@@ -26,18 +26,15 @@ export const HomeHero = React.memo(function HomeHero({ onOpenFullMenu }: Props) 
             src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/hero-background-Y4t6SLXBixKjPoFYEpY3MHsvSF4sjJ.mp4"
             type="video/mp4"
           />
-          {/* Fallback image if video fails to load */}
+          {/* Fallback Image */}
           <Image
-            src="/images/menu-background.jpg"
-            alt="Delicious stir-fried noodles"
+            src="/images/carousel-1.jpg"
+            alt="Chanoly Noodle Restaurant"
             fill
-            sizes="100vw"
+            className="object-cover"
             quality={50}
-            priority={false}
-            className="object-cover hero-image image-optimized"
-            placeholder="blur"
-            blurDataURL="data:image/webp;base64,UklGRiQAAABXRUJQVlA4IBgAAAAwAQCdASoBAAADsAD+JaQAA3AAAAAA"
-            loading="lazy"
+            priority={true}
+            loading="eager"
           />
         </video>
         {/* Dark overlay for better text readability */}

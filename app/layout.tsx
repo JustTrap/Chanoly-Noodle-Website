@@ -56,6 +56,10 @@ export default function RootLayout({
           as="image"
           type="image/png"
         />
+        <link rel="preload" href="/images/carousel-1.jpg" as="image" />
+        <link rel="preload" href="/images/carousel-2.jpg" as="image" />
+        <link rel="preload" href="/images/carousel-3.jpg" as="image" />
+        <link rel="preload" href="/images/Instagram-screenshot.jpg" as="image" />
         <link
           rel="dns-prefetch"
           href="//fonts.googleapis.com"
