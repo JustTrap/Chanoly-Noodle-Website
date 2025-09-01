@@ -1,5 +1,3 @@
-"use client";
-import { Button } from "@/components/ui/button";
 import { Phone, Mail, Facebook, Instagram, Clock, MapPin } from "lucide-react";
 import Link from "next/link";
 import React from "react";
@@ -37,6 +35,7 @@ export function GeneralContact() {
                 </h3>
                 <Link
                   href="mailto:chanolymarketing@gmail.com"
+                  target="_blank"
                   className="text-gray-600 hover:text-chanoly transition-colors duration-300"
                 >
                   chanolymarketing@gmail.com

@@ -1,4 +1,3 @@
-"use client";
 import Image from "next/image";
 import { Phone, Mail, Facebook, Instagram } from "lucide-react";
 import React from "react";
@@ -92,7 +91,9 @@ export function ContactFooter() {
 
           {/* Order Us */}
           <div>
-            <h4 className="text-lg font-medium mb-4 text-white font-showg">ORDER US</h4>
+            <h4 className="text-lg font-medium mb-4 text-white font-showg">
+              ORDER US
+            </h4>
             <div className="space-y-2 text-gray-400 text-sm">
               <div className="flex items-center hover:text-white transition-colors duration-300 cursor-pointer">
                 <Phone className="w-5 h-5 mr-3" />
@@ -103,21 +104,28 @@ export function ContactFooter() {
 
           {/* Contact */}
           <div>
-            <h4 className="text-lg font-medium mb-4 text-white font-showg">CONTACT US</h4>
+            <h4 className="text-lg font-medium mb-4 text-white font-showg">
+              CONTACT US
+            </h4>
             <div className="space-y-2 text-gray-400 text-sm">
-              <button 
-                onClick={() => window.open('mailto:chanolymarketing@gmail.com', '_blank')}
+              <Link
+                href="mailto:chanolymarketing@gmail.com"
+                target="_blank"
                 className="flex items-center hover:text-white transition-all duration-300 cursor-pointer font-medium group"
               >
                 <Mail className="w-5 h-5 mr-3 group-hover:text-chanoly transition-colors duration-300" />
-                <span className="group-hover:text-chanoly transition-colors duration-300">Email Us</span>
-              </button>
+                <span className="group-hover:text-chanoly transition-colors duration-300">
+                  Email Us
+                </span>
+              </Link>
             </div>
           </div>
 
           {/* QR Code and Comments Section */}
           <div>
-            <h4 className="text-lg font-medium mb-4 text-white font-showg">FEEDBACK</h4>
+            <h4 className="text-lg font-medium mb-4 text-white font-showg">
+              FEEDBACK
+            </h4>
             <div className="space-y-4">
               {/* QR Code Container - Left-aligned to match header */}
               <div className="flex justify-start">
@@ -133,12 +141,12 @@ export function ContactFooter() {
                       priority
                     />
                   </div>
-                  
+
                   {/* Subtle accent corner */}
                   <div className="absolute -top-1 -right-1 w-3 h-3 bg-chanoly rounded-full opacity-60"></div>
                 </div>
               </div>
-              
+
               {/* Text Section - Left-aligned to match header */}
               <div className="space-y-2 text-left">
                 <p className="text-white text-sm font-semibold leading-tight">

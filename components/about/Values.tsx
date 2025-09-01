@@ -1,5 +1,3 @@
-"use client";
-
 export function Values() {
   return (
     <section className="py-12 md:py-16 px-4 md:px-6 bg-gray-50">
@@ -50,10 +48,12 @@ export function Values() {
               <div className="w-14 h-14 rounded-full flex items-center justify-center mx-auto mb-4 group-hover:scale-110 transition-transform duration-300 bg-chanoly">
                 <span className="text-white text-xl font-bold">{v.k}</span>
               </div>
-                              <h3 className="text-lg font-semibold text-gray-800 mb-3 font-showg">
+              <h3 className="text-lg font-semibold text-gray-800 mb-3 font-showg">
                 {v.t}
               </h3>
-              <p className="text-sm text-gray-600 leading-relaxed font-normal max-w-xs mx-auto">{v.d}</p>
+              <p className="text-sm text-gray-600 leading-relaxed font-normal max-w-xs mx-auto">
+                {v.d}
+              </p>
             </div>
           ))}
         </div>

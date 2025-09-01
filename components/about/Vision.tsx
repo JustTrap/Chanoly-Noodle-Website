@@ -1,4 +1,3 @@
-"use client";
 import Image from "next/image";
 
 export function Vision() {
@@ -24,7 +23,7 @@ export function Vision() {
         <div className="flex items-center justify-center p-6 md:p-12 relative">
           {/* Orange accent behind content */}
           <div className="absolute inset-0 bg-gradient-to-r from-chanoly/10 to-transparent rounded-2xl"></div>
-          
+
           <div className="space-y-6 md:space-y-8 max-w-lg relative z-10">
             <div className="relative">
               {/* Orange underline accent */}
@@ -33,25 +32,30 @@ export function Vision() {
                 OUR VISION
               </h2>
             </div>
-            
-            <div className="space-y-4 md:space-y-6 leading-relaxed text-lg md:text-xl drop-shadow-lg" style={{ color: "rgba(45, 75, 75, 1)" }}>
+
+            <div
+              className="space-y-4 md:space-y-6 leading-relaxed text-lg md:text-xl drop-shadow-lg"
+              style={{ color: "rgba(45, 75, 75, 1)" }}
+            >
               <p className="transition-colors duration-300 font-bold">
-                To be the leading destination for authentic Asian cuisine in Addis Ababa,
-                known for our commitment to fresh ingredients, innovative fusion dishes,
-                and exceptional dining experiences that bridge cultures through food.
+                To be the leading destination for authentic Asian cuisine in
+                Addis Ababa, known for our commitment to fresh ingredients,
+                innovative fusion dishes, and exceptional dining experiences
+                that bridge cultures through food.
               </p>
               <p className="transition-colors duration-300 font-bold">
-                We envision Chanoly as a culinary hub where traditional Chinese flavors
-                meet contemporary dining trends, creating memorable experiences for
-                families, friends, and food enthusiasts alike.
+                We envision Chanoly as a culinary hub where traditional Chinese
+                flavors meet contemporary dining trends, creating memorable
+                experiences for families, friends, and food enthusiasts alike.
               </p>
               <p className="transition-colors duration-300 font-bold">
-                Our vision extends beyond serving great food - we aim to be a community
-                gathering place that celebrates diversity, fosters connections, and
-                introduces Ethiopian diners to the rich tapestry of Asian culinary traditions.
+                Our vision extends beyond serving great food - we aim to be a
+                community gathering place that celebrates diversity, fosters
+                connections, and introduces Ethiopian diners to the rich
+                tapestry of Asian culinary traditions.
               </p>
             </div>
-            
+
             {/* Orange decorative element at bottom */}
             <div className="flex justify-center pt-4">
               <div className="w-32 h-1 bg-gradient-to-r from-transparent via-chanoly to-transparent rounded-full opacity-60"></div>
@@ -75,12 +79,12 @@ export function Vision() {
             unoptimized={false}
           />
           <div className="absolute inset-0 bg-black/20 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
-          
+
           {/* Orange overlay on image */}
           <div className="absolute inset-0 bg-gradient-to-bl from-chanoly/20 to-transparent"></div>
         </div>
       </div>
-      
+
       {/* Chanoly Watermark - Positioned relative to entire section */}
       <div className="absolute -bottom-16 -left-2 opacity-30 z-20">
         <Image

@@ -1,4 +1,3 @@
-"use client";
 import Image from "next/image";
 
 export function OurStory() {
@@ -36,7 +35,7 @@ export function OurStory() {
             unoptimized={false}
           />
           <div className="absolute inset-0 bg-black/20 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
-          
+
           {/* Orange overlay on image */}
           <div className="absolute inset-0 bg-gradient-to-br from-chanoly/20 to-transparent"></div>
         </div>
@@ -45,17 +44,20 @@ export function OurStory() {
         <div className="flex items-center justify-center p-6 md:p-12 relative">
           {/* Orange accent behind content */}
           <div className="absolute inset-0 bg-gradient-to-l from-chanoly/10 to-transparent rounded-2xl"></div>
-          
+
           <div className="space-y-6 md:space-y-8 max-w-lg relative z-10">
             <div className="relative">
               {/* Orange underline accent */}
               <div className="absolute -bottom-2 left-0 w-24 h-1 bg-chanoly rounded-full"></div>
-              <h2 className="chanoly-heading text-3xl sm:text-4xl md:text-6xl text-black tracking-widest mb-6 md:mb-8 transition-colors duration-500 font-bold drop-shadow-lg font-showg text-chanoly">
+              <h2 className="chanoly-heading text-3xl sm:text-4xl md:text-6xl tracking-widest mb-6 md:mb-8 transition-colors duration-500 font-bold drop-shadow-lg font-showg text-chanoly">
                 OUR STORY
               </h2>
             </div>
-            
-            <div className="space-y-4 md:space-y-6 leading-relaxed text-lg md:text-xl drop-shadow-lg" style={{ color: "rgba(45, 75, 75, 1)" }}>
+
+            <div
+              className="space-y-4 md:space-y-6 leading-relaxed text-lg md:text-xl drop-shadow-lg"
+              style={{ color: "rgba(45, 75, 75, 1)" }}
+            >
               <p className="transition-colors duration-300 font-bold">
                 Chanoly Smoothie and Noodles house has been serving fresh foods
                 and drinks since 2012 GC with an open Chinese style kitchen and
@@ -73,7 +75,7 @@ export function OurStory() {
                 vegetables that bring authentic Asian flavors to Addis Ababa.
               </p>
             </div>
-            
+
             {/* Orange decorative element at bottom */}
             <div className="flex justify-center pt-4">
               <div className="w-32 h-1 bg-gradient-to-r from-transparent via-chanoly to-transparent rounded-full opacity-60"></div>

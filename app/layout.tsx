@@ -1,44 +1,33 @@
-import type React from "react"
-import type { Metadata } from "next"
-import { Fredoka, Nunito } from "next/font/google"
-import "./globals.css"
-import { Analytics } from "@vercel/analytics/next"
-import { Suspense } from "react"
+import type React from "react";
+import type { Metadata } from "next";
+import { Fredoka, Nunito } from "next/font/google";
+import "./globals.css";
+import { Analytics } from "@vercel/analytics/next";
 
 const fredoka = Fredoka({
   subsets: ["latin"],
   weight: ["300", "400", "500", "600", "700"],
   variable: "--font-fredoka",
   display: "swap",
-})
+});
 
 const nunito = Nunito({
   subsets: ["latin"],
   weight: ["300", "400", "500", "600", "700", "800", "900"],
   variable: "--font-nunito",
   display: "swap",
-})
+});
 
 export const metadata: Metadata = {
   title: "Chanoly Restaurant",
   description: "Authentic Asian cuisine in Addis Ababa",
-  generator: 'v0.app',
-  other: {
-    'link[rel="preload"]': [
-      {
-        href: '/fonts/SHOWG.TTF',
-        as: 'font',
-        type: 'font/ttf',
-        crossOrigin: 'anonymous',
-      },
-    ],
-  },
-}
+  generator: "v0.app",
+};
 
 export default function RootLayout({
   children,
 }: Readonly<{
-  children: React.ReactNode
+  children: React.ReactNode;
 }>) {
   return (
     <html lang="en" className={`${fredoka.variable} ${nunito.variable}`}>
@@ -50,36 +39,16 @@ export default function RootLayout({
           type="font/ttf"
           crossOrigin="anonymous"
         />
-        <link
-          rel="preload"
-          href="/images/Background-Pattern.png"
-          as="image"
-          type="image/png"
+
+        <meta
+          name="viewport"
+          content="width=device-width, initial-scale=1, maximum-scale=5"
         />
-        <link rel="preload" href="/images/carousel-1.jpg" as="image" />
-        <link rel="preload" href="/images/carousel-2.jpg" as="image" />
-        <link rel="preload" href="/images/carousel-3.jpg" as="image" />
-        <link rel="preload" href="/images/Instagram-screenshot.jpg" as="image" />
-        <link
-          rel="dns-prefetch"
-          href="//fonts.googleapis.com"
-        />
-        <link
-          rel="preconnect"
-          href="https://fonts.googleapis.com"
-          crossOrigin="anonymous"
-        />
-        <link
-          rel="preconnect"
-          href="https://fonts.gstatic.com"
-          crossOrigin="anonymous"
-        />
-        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5" />
       </head>
       <body>
-        <Suspense fallback={<div>Loading...</div>}>{children}</Suspense>
+        {children}
         <Analytics />
       </body>
     </html>
-  )
+  );
 }

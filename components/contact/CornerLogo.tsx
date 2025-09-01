@@ -1,5 +1,6 @@
 "use client";
 import Image from "next/image";
+import Link from "next/link";
 import React from "react";
 
 export function CornerLogo({ showScrollMenu }: { showScrollMenu: boolean }) {
@@ -11,7 +12,7 @@ export function CornerLogo({ showScrollMenu }: { showScrollMenu: boolean }) {
           : "opacity-0 -translate-x-4 scale-95"
       }`}
     >
-      <a href="/" className="block">
+      <Link href="/" className="block">
         <Image
           src="/images/chanoly-logo.png"
           alt="Chanoly Noodle Logo"
@@ -29,7 +30,7 @@ export function CornerLogo({ showScrollMenu }: { showScrollMenu: boolean }) {
             e.currentTarget.classList.remove("animate-logo-vibrate");
           }}
         />
-      </a>
+      </Link>
     </div>
   );
 }

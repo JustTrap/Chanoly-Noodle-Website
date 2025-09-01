@@ -1,6 +1,5 @@
-"use client";
 import React from "react";
-import { Button } from "@/components/ui/button";
+import ReviewButtons from "./ReviewButtons";
 
 type Review = {
   name: string;
@@ -103,7 +102,10 @@ export function HomeReviews({
                 "{r.text}"
               </p>
               <div className="flex items-center">
-                <div className="w-12 h-12 rounded-full flex items-center justify-center mr-4" style={{ backgroundColor: "rgb(249, 115, 22)" }}>
+                <div
+                  className="w-12 h-12 rounded-full flex items-center justify-center mr-4"
+                  style={{ backgroundColor: "rgb(249, 115, 22)" }}
+                >
                   <span className="text-white font-semibold text-lg">
                     {r.initial}
                   </span>
@@ -119,36 +121,14 @@ export function HomeReviews({
           {/* Call to Action */}
           <div className="col-span-full text-center mt-16 md:mt-20 mb-8">
             <div className="max-w-4xl mx-auto px-4">
-                              <h3 className="text-3xl sm:text-4xl md:text-6xl font-semibold text-gray-800 mb-6 tracking-wide font-showg">
-                  Ready to Create Your Own Experience?
-                </h3>
+              <h3 className="text-3xl sm:text-4xl md:text-6xl font-semibold text-gray-800 mb-6 tracking-wide font-showg">
+                Ready to Create Your Own Experience?
+              </h3>
               <p className="text-lg md:text-xl text-gray-600 mb-10 max-w-3xl mx-auto leading-relaxed">
                 Join thousands of satisfied customers who have made Chanoly
                 their favorite dining destination.
               </p>
-              <div className="flex flex-col sm:flex-row gap-6 justify-center items-center">
-                <Button
-                  className="border border-transparent px-8 py-4 tracking-wider transition-all duration-300 hover:scale-105 rounded-none text-sm font-bold min-w-[200px]"
-                  style={{
-                    backgroundColor: "rgba(45, 75, 75, 1)",
-                    color: "white",
-                  }}
-                  onClick={() => (window.location.href = "/branches")}
-                >
-                  FIND A LOCATION
-                </Button>
-                <Button
-                  variant="outline"
-                  className="border-chanoly text-chanoly bg-transparent px-8 py-4 tracking-wider transition-all duration-300 hover:scale-105 rounded-none text-sm font-bold min-w-[200px]"
-                  style={{
-                    borderColor: "rgb(249, 115, 22)",
-                    color: "rgb(249, 115, 22)",
-                  }}
-                  onClick={onOpenFullMenu}
-                >
-                  VIEW MENU
-                </Button>
-              </div>
+              <ReviewButtons onOpenFullMenu={onOpenFullMenu} />
             </div>
           </div>
         </div>

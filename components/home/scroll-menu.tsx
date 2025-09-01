@@ -1,6 +1,5 @@
 "use client";
 import React from "react";
-import { Button } from "@/components/ui/button";
 import Link from "next/link";
 
 type Props = {
@@ -110,7 +109,6 @@ export function HomeScrollMenu({
               >
                 CONTACT US
               </Link>
-
             </nav>
           </div>
         )}
