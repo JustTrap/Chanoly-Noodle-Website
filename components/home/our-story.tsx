@@ -4,7 +4,7 @@ import React from "react";
 export function HomeOurStory() {
   return (
     <section className="min-h-[80vh] relative overflow-hidden">
-      {/* Optimized Background Pattern Image */}
+      {/* Background Pattern Image */}
       <div className="absolute inset-0 z-0">
         <Image
           src="/images/Background-Pattern.png"

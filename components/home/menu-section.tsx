@@ -130,6 +130,8 @@ export function HomeMenuSection({ onOpenFullMenu }: Props) {
           </div>
         </div>
       </div>
+
+
     </section>
   );
 }

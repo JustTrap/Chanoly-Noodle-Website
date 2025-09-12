@@ -93,22 +93,7 @@ export const menuData = [
       { name: "TEJ MOJITO", price: "370" },
     ],
   },
-  {
-    category: "EXTRAS & SIDES",
-    items: [
-      { name: "EXTRA EGG", price: "30" },
-      { name: "EXTRA FISH", price: "100" },
-      { name: "EXTRA BEEF", price: "145" },
-      { name: "EXTRA CHICKEN", price: "160" },
-      { name: "EXTRA CHILI SAUCE", price: "40" },
-      { name: "EXTRA VEGETABLE", price: "60" },
-      { name: "EXTRA RICE", price: "135" },
-      { name: "EXTRA CUP", price: "35" },
-      { name: "EXTRA RUM/GIN 25 ML", price: "250" },
-      { name: "WATER .5L / 1 LITER", price: "40/50" },
-      { name: "TAKE AWAY BOX SMALL/MEDIUM/LARGE", price: "45/55/65" },
-    ],
-  },
+
 ];
 
 export const branches = [

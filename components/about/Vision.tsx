@@ -29,7 +29,7 @@ export function Vision() {
               {/* Orange underline accent */}
               <div className="absolute -bottom-2 left-0 w-24 h-1 bg-chanoly rounded-full"></div>
               <h2 className="chanoly-heading text-3xl sm:text-4xl md:text-6xl text-black tracking-widest mb-6 md:mb-8 transition-colors duration-500 font-bold drop-shadow-lg font-showg text-chanoly">
-                OUR VISION
+                OUR MISSION & OUR VISION
               </h2>
             </div>
 
@@ -37,23 +37,21 @@ export function Vision() {
               className="space-y-4 md:space-y-6 leading-relaxed text-lg md:text-xl drop-shadow-lg"
               style={{ color: "rgba(45, 75, 75, 1)" }}
             >
-              <p className="transition-colors duration-300 font-bold">
-                To be the leading destination for authentic Asian cuisine in
-                Addis Ababa, known for our commitment to fresh ingredients,
-                innovative fusion dishes, and exceptional dining experiences
-                that bridge cultures through food.
-              </p>
-              <p className="transition-colors duration-300 font-bold">
-                We envision Chanoly as a culinary hub where traditional Chinese
-                flavors meet contemporary dining trends, creating memorable
-                experiences for families, friends, and food enthusiasts alike.
-              </p>
-              <p className="transition-colors duration-300 font-bold">
-                Our vision extends beyond serving great food - we aim to be a
-                community gathering place that celebrates diversity, fosters
-                connections, and introduces Ethiopian diners to the rich
-                tapestry of Asian culinary traditions.
-              </p>
+              {/* Mission Section */}
+              <div className="space-y-4">
+                <h3 className="text-2xl md:text-3xl font-bold text-chanoly font-showg">Our Mission</h3>
+                <p className="transition-colors duration-300 font-bold">
+                  Chanoly exists to bring people together through authentic dining experiences. We serve fresh, high-quality food made with care, while creating a welcoming atmosphere that celebrates community, culture, and the joy of sharing meals.
+                </p>
+              </div>
+
+              {/* Vision Section */}
+              <div className="space-y-4">
+                <h3 className="text-2xl md:text-3xl font-bold text-chanoly font-showg">Our Vision</h3>
+                <p className="transition-colors duration-300 font-bold">
+                  Chanoly aims to become a leading restaurant brand recognized for excellence in flavor, service, and innovation. We envision a future where every Chanoly guest feels connected, valued, and inspired by food that nourishes both body and soul.
+                </p>
+              </div>
             </div>
 
             {/* Orange decorative element at bottom */}

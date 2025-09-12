@@ -20,7 +20,7 @@ export function AboutHero() {
       </div>
 
       <div className="text-center max-w-4xl px-4 md:px-6 relative z-10">
-        <h1 className="chanoly-title mb-6 tracking-wider font-semibold">
+        <h1 className="chanoly-title mb-6 tracking-wider">
           <span className="text-3xl sm:text-4xl md:text-6xl font-showg">
             ABOUT
           </span>
@@ -29,10 +29,24 @@ export function AboutHero() {
             CHANOLY
           </span>
         </h1>
-        <p className="text-lg md:text-xl mb-8 max-w-2xl mx-auto leading-relaxed opacity-95 font-medium drop-shadow-lg">
+        <p className="text-lg md:text-xl mb-8 max-w-2xl mx-auto leading-relaxed opacity-95 drop-shadow-lg">
           Discover the story behind our passion for authentic Asian cuisine and
           exceptional dining experiences.
         </p>
+        <div className="flex items-center justify-center gap-4">
+          <a
+            href="#our-story"
+            className="px-6 py-3 rounded-md bg-chanoly text-white hover:brightness-110 transition-optimized"
+          >
+            Read Our Story
+          </a>
+          <a
+            href="/contact"
+            className="px-6 py-3 rounded-md border border-white/70 hover:bg-white/10 transition-optimized"
+          >
+            Contact Us
+          </a>
+        </div>
       </div>
     </section>
   );

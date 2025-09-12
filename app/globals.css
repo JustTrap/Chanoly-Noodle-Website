@@ -789,23 +789,9 @@
   text-shadow: 0 0 20px rgba(45, 75, 75, 0.6);
 }
 
-/* Global bold text styling for entire website */
-body,
-h1, h2, h3, h4, h5, h6,
-p, span, div, a, button, input, textarea, label,
-li, ul, ol, blockquote, cite, em, strong, b, i,
-td, th, caption, table {
-  font-weight: bold !important;
-}
-
-/* Ensure specific elements maintain their bold styling */
+/* Retain bold for branded headings only */
 .chanoly-title,
 .chanoly-heading,
 .chanoly-nav {
-  font-weight: bold !important;
-}
-
-/* Override any existing font-weight declarations */
-* {
-  font-weight: bold !important;
+  font-weight: 700;
 }

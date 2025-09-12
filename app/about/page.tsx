@@ -1,7 +1,6 @@
 import { AboutHero } from "@/components/about/AboutHero";
 import { OurStory } from "@/components/about/OurStory";
 import { Vision } from "@/components/about/Vision";
-import { Mission } from "@/components/about/Mission";
 import { Gallery } from "@/components/about/Gallery";
 import { Values } from "@/components/about/Values";
 import { Journey } from "@/components/about/Journey";
@@ -18,8 +17,6 @@ export default function page() {
       <OurStory />
 
       <Vision />
-
-      <Mission />
 
       <Gallery />
 

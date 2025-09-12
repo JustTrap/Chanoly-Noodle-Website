@@ -12,18 +12,22 @@ export const HomeHero = React.memo(function HomeHero({
   return (
     <section className="relative h-screen flex items-center justify-center text-white overflow-hidden">
       {/* Video Background */}
-      <div className="absolute inset-0 z-0">
+      <div className="absolute inset-0 w-full h-full z-0">
         <video
           autoPlay
           muted
           loop
           playsInline
-          preload="metadata"
+          preload="auto"
           className="w-full h-full object-cover"
+          style={{
+            transform: 'scale(1.35)',
+            transformOrigin: 'center center'
+          }}
           poster="/placeholder.svg?height=1080&width=1920&text=Chanoly+Restaurant"
         >
           <source
-            src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/hero-background-Y4t6SLXBixKjPoFYEpY3MHsvSF4sjJ.mp4"
+            src="/hero-video.mp4"
             type="video/mp4"
           />
           {/* Fallback Image */}

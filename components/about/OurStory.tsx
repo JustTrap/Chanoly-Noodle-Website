@@ -73,6 +73,8 @@ export function OurStory() {
           </div>
         </div>
       </div>
+
+
     </section>
   );
 }

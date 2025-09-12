@@ -12,11 +12,6 @@ interface FullMenuProps {
   onClose: () => void;
 }
 
-interface FullMenuProps {
-  isOpen: boolean;
-  onClose: () => void;
-}
-
 export function FullMenu({ isOpen, onClose }: FullMenuProps) {
   useEffect(() => {
     const handleEscape = (e: KeyboardEvent) => {
@@ -48,17 +43,18 @@ export function FullMenu({ isOpen, onClose }: FullMenuProps) {
         onClick={(e) => e.stopPropagation()}
       >
         <div className="bg-white rounded-lg max-w-6xl w-full max-h-[90vh] overflow-y-auto relative">
-          {/* Watermark Logo */}
-          <div className="absolute inset-0 flex items-center justify-center pointer-events-none z-20 opacity-25">
-            <div className="w-96 h-96 md:w-[500px] md:h-[500px] flex items-center justify-center">
-              <Image
-                src="/images/chanoly-watermark.png"
-                alt="Chanoly Watermark"
-                fill
-                className="object-contain"
-                priority
-              />
-            </div>
+          {/* Chanoly Watermark - Centered in the middle */}
+          <div className="absolute inset-0 flex items-center justify-center opacity-20 z-20 pointer-events-none">
+            <Image
+              src="/images/chanoly-noodle-logo.png"
+              alt="Chanoly Watermark"
+              width={600}
+              height={600}
+              className="w-[600px] h-[600px] object-contain"
+              priority={false}
+              loading="lazy"
+              quality={40}
+            />
           </div>
 
           <div className="sticky top-0 bg-white border-b p-4 flex justify-between items-center z-30">
