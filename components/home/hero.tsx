@@ -1,5 +1,5 @@
 import Image from "next/image";
-import React from "react";
+import React, { useState } from "react";
 import HeroButton from "./HeroButton";
 
 type Props = {
@@ -9,37 +9,37 @@ type Props = {
 export const HomeHero = React.memo(function HomeHero({
   onOpenFullMenu,
 }: Props) {
+  const [canPlayVideo, setCanPlayVideo] = useState(true);
   return (
     <section className="relative h-screen flex items-center justify-center text-white overflow-hidden">
-      {/* Video Background */}
+      {/* Background (Image fallback always present) */}
       <div className="absolute inset-0 w-full h-full z-0">
+        <Image
+          src="/images/carousel-1.jpg"
+          alt="Chanoly Noodle Restaurant"
+          fill
+          className="object-cover"
+          quality={60}
+          priority={true}
+          loading="eager"
+        />
+        {/* Video layer on top; hidden if it fails */}
         <video
           autoPlay
           muted
           loop
           playsInline
           preload="auto"
-          className="w-full h-full object-cover"
+          onCanPlay={() => setCanPlayVideo(true)}
+          onError={() => setCanPlayVideo(false)}
+          className={`absolute inset-0 w-full h-full object-cover transition-opacity duration-500 ${canPlayVideo ? 'opacity-100' : 'opacity-0 pointer-events-none'}`}
           style={{
             transform: 'scale(1.35)',
             transformOrigin: 'center center'
           }}
-          poster="/placeholder.svg?height=1080&width=1920&text=Chanoly+Restaurant"
+          poster="/images/carousel-1.jpg"
         >
-          <source
-            src="/hero-video.mp4"
-            type="video/mp4"
-          />
-          {/* Fallback Image */}
-          <Image
-            src="/images/carousel-1.jpg"
-            alt="Chanoly Noodle Restaurant"
-            fill
-            className="object-cover"
-            quality={50}
-            priority={true}
-            loading="eager"
-          />
+          <source src="/hero-video.mp4" type="video/mp4" />
         </video>
         {/* Dark overlay for better text readability */}
         <div className="absolute inset-0 bg-black/50"></div>

@@ -33,20 +33,7 @@ export function AboutHero() {
           Discover the story behind our passion for authentic Asian cuisine and
           exceptional dining experiences.
         </p>
-        <div className="flex items-center justify-center gap-4">
-          <a
-            href="#our-story"
-            className="px-6 py-3 rounded-md bg-chanoly text-white hover:brightness-110 transition-optimized"
-          >
-            Read Our Story
-          </a>
-          <a
-            href="/contact"
-            className="px-6 py-3 rounded-md border border-white/70 hover:bg-white/10 transition-optimized"
-          >
-            Contact Us
-          </a>
-        </div>
+        
       </div>
     </section>
   );
