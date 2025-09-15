@@ -161,7 +161,7 @@ export const branches = [
     address: "2221 Cameroon St, Addis Ababa",
     mapLink: "https://share.google/b6phpKncuFQminUuI",
     image:
-      "/images/Bole-AirPort-Branch.jpg",
+      "/images/Bole-AirPort-Branch.png?v=2",
   },
   {
     id: 9,
@@ -246,7 +246,7 @@ export const contactBranches: ContactBranch[] = [
     address: "2221 Cameroon St, Addis Ababa",
     phone: "+25196 802 9800",
     image:
-      "/images/Bole-AirPort-Branch.jpg",
+      "/images/Bole-AirPort-Branch.PNG?v=2",
   },
   {
     id: 9,
