@@ -169,7 +169,7 @@ export const branches = [
     shortName: "Bole Bulbula Branch",
     address: "Unnamed Road, Addis Ababa",
     mapLink: "https://maps.app.goo.gl/EUmxsVuqDrEgNx5x9",
-    image: "/images/Bole-Bulbula-Branch1.png?v=2",
+    image: "/images/Bole-Bulbula-Branch1.png?v=3",
   },
   {
     id: 10,
@@ -177,7 +177,7 @@ export const branches = [
     shortName: "Hawassa Branch",
     address: "Bensa Daye Building, Hawassa",
     mapLink: "https://maps.app.goo.gl/mpwCu6rK81qqi7Zv8",
-    image: "/images/Hawassa-Branch.png?v=2",
+    image: "/images/Hawassa-Branch.png?v=3",
   },
 ];
 
@@ -254,7 +254,7 @@ export const contactBranches: ContactBranch[] = [
     shortName: "Bole Bulbula Branch",
     address: "Unnamed Road, Addis Ababa",
     phone: "+251985493231",
-    image: "/images/Bole-Bulbula-Branch1.jpg?v=2",
+    image: "/images/Bole-Bulbula-Branch1.png?v=3",
   },
   {
     id: 10,
@@ -262,6 +262,6 @@ export const contactBranches: ContactBranch[] = [
     shortName: "Hawassa Branch",
     address: "Bensa Daye Building, Hawassa",
     phone: "601",
-    image: "/images/Hawassa-Branch.PNG?v=2",
+    image: "/images/Hawassa-Branch.png?v=3",
   },
 ];
