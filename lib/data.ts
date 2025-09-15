@@ -246,7 +246,7 @@ export const contactBranches: ContactBranch[] = [
     address: "2221 Cameroon St, Addis Ababa",
     phone: "+25196 802 9800",
     image:
-      "/images/Bole-AirPort-Branch.PNG?v=2",
+      "/images/Bole-AirPort-Branch.png?v=3",
   },
   {
     id: 9,
