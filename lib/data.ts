@@ -144,7 +144,7 @@ export const branches = [
     shortName: "Abinet Branch",
     address: "NOBI Building Lideta, Abinet Square, Addis Ababa",
     mapLink: "https://share.google/DMe0BsY9cXkCgCgXQ",
-    image: "/images/Abinet-Branch1.JPG?v=2",
+    image: "/images/Abinet-Branch1.jpg?v=3",
   },
   {
     id: 7,
@@ -229,7 +229,7 @@ export const contactBranches: ContactBranch[] = [
     shortName: "Abinet Branch",
     address: "NOBI Building Lideta, Abinet Square, Addis Ababa",
     phone: "601",
-    image: "/images/Abinet-Branch1.JPG?v=2",
+    image: "/images/Abinet-Branch1.jpg?v=3",
   },
   {
     id: 7,
