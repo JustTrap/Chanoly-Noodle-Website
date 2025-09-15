@@ -169,7 +169,7 @@ export const branches = [
     shortName: "Bole Bulbula Branch",
     address: "Unnamed Road, Addis Ababa",
     mapLink: "https://maps.app.goo.gl/EUmxsVuqDrEgNx5x9",
-    image: "/images/Bole-Bulbula-Branch1.png?v=3",
+    image: "/images/Bole-Bulbula-Branch1.png?v=4",
   },
   {
     id: 10,
@@ -254,7 +254,7 @@ export const contactBranches: ContactBranch[] = [
     shortName: "Bole Bulbula Branch",
     address: "Unnamed Road, Addis Ababa",
     phone: "+251985493231",
-    image: "/images/Bole-Bulbula-Branch1.png?v=3",
+    image: "/images/Bole-Bulbula-Branch1.png?v=4",
   },
   {
     id: 10,
