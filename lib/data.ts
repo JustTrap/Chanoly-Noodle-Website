@@ -1,4 +1,5 @@
 import { ContactBranch } from "@/components/contact/BranchContactsGrid";
+import { getSupabasePublicUrl } from "@/lib/utils";
 
 export const menuData = [
   {
@@ -103,7 +104,7 @@ export const branches = [
     shortName: "Sarbet Branch",
     address: "Mela Building, Egypt St, Addis Ababa",
     mapLink: "https://share.google/yT0U17MXF2WlEd46n",
-    image: "/images/Sarbet-Branch.jpg",
+    image: getSupabasePublicUrl("Pictures and vids", "Sarbet-Branch.jpg"),
   },
   {
     id: 2,
@@ -111,7 +112,7 @@ export const branches = [
     shortName: "Olympia Branch",
     address: "LEBENZ TOWER | Gazebo, Gabon St, Addis Ababa",
     mapLink: "https://share.google/RbWBnh3yRonivwKgm",
-    image: "/images/Olympia-Branch.jpg",
+    image: getSupabasePublicUrl("Pictures and vids", "Olympia-Branch.jpg"),
   },
   {
     id: 3,
@@ -119,7 +120,7 @@ export const branches = [
     shortName: "Summit Branch",
     address: "Unnamed Road, Addis Ababa",
     mapLink: "https://share.google/QENi23jvtxlOEDsMl",
-    image: "/images/Summit-Branch.jpg",
+    image: getSupabasePublicUrl("Pictures and vids", "Summit-Branch.jpg"),
   },
   {
     id: 4,
@@ -128,7 +129,7 @@ export const branches = [
     address:
       "Bole Airport Rd, Around FriendShip Hotel Kidus Bldg 3rd floor, Addis Ababa",
     mapLink: "https://share.google/Gq8RwlfO7dittqCsO",
-    image: "/images/Bole-Friendship-Branch.jpg",
+    image: getSupabasePublicUrl("Pictures and vids", "Bole-Friendship-Branch.jpg"),
   },
   {
     id: 5,
@@ -136,7 +137,7 @@ export const branches = [
     shortName: "Bole Medhanialem Branch",
     address: "Unnamed street, Addis Ababa",
     mapLink: "https://share.google/GCmLNdab5vui17pM7",
-    image: "/images/Bole-Medhanialem-Branch.jpg",
+    image: getSupabasePublicUrl("Pictures and vids", "Bole-Medhanialem-Branch.jpg"),
   },
   {
     id: 6,
@@ -144,7 +145,7 @@ export const branches = [
     shortName: "Abinet Branch",
     address: "NOBI Building Lideta, Abinet Square, Addis Ababa",
     mapLink: "https://share.google/DMe0BsY9cXkCgCgXQ",
-    image: "/images/Abinet-Branch1.jpg?v=3",
+    image: getSupabasePublicUrl("Pictures and vids", "Abinet-Branch1.jpg"),
   },
   {
     id: 7,
@@ -152,7 +153,7 @@ export const branches = [
     shortName: "Lebu Branch",
     address: "Unnamed street, Addis Ababa",
     mapLink: "https://share.google/GT6sGsvxQ413Zb4xD",
-    image: "/images/Lebu-Branch.jpg",
+    image: getSupabasePublicUrl("Pictures and vids", "Lebu-Branch.jpg"),
   },
   {
     id: 8,
@@ -160,8 +161,7 @@ export const branches = [
     shortName: "Bole Airport Branch",
     address: "2221 Cameroon St, Addis Ababa",
     mapLink: "https://share.google/b6phpKncuFQminUuI",
-    image:
-      "/images/Bole-AirPort-Branch.png?v=2",
+    image: getSupabasePublicUrl("Pictures and vids", "Bole-AirPort-Branch.png"),
   },
   {
     id: 9,
@@ -169,7 +169,7 @@ export const branches = [
     shortName: "Bole Bulbula Branch",
     address: "Unnamed Road, Addis Ababa",
     mapLink: "https://maps.app.goo.gl/EUmxsVuqDrEgNx5x9",
-    image: "/images/Bole-Bulbula-Branch1.png?v=4",
+    image: getSupabasePublicUrl("Pictures and vids", "Bole-Bulbula-Branch1.png"),
   },
   {
     id: 10,
@@ -177,7 +177,7 @@ export const branches = [
     shortName: "Hawassa Branch",
     address: "Bensa Daye Building, Hawassa",
     mapLink: "https://maps.app.goo.gl/mpwCu6rK81qqi7Zv8",
-    image: "/images/Hawassa-Branch.png?v=3",
+    image: getSupabasePublicUrl("Pictures and vids", "Hawassa-Branch.png"),
   },
 ];
 
@@ -188,7 +188,7 @@ export const contactBranches: ContactBranch[] = [
     shortName: "Sarbet Branch",
     address: "Mela Building, Egypt St, Addis Ababa",
     phone: "+25193 646 8620",
-    image: "/images/Sarbet-Branch.jpg",
+    image: getSupabasePublicUrl("Pictures and vids", "Sarbet-Branch.jpg"),
   },
   {
     id: 2,
@@ -196,7 +196,7 @@ export const contactBranches: ContactBranch[] = [
     shortName: "Olympia Branch",
     address: "LEBENZ TOWER | Gazebo, Gabon St, Addis Ababa",
     phone: "+25196 167 3377",
-    image: "/images/Olympia-Branch.jpg",
+    image: getSupabasePublicUrl("Pictures and vids", "Olympia-Branch.jpg"),
   },
   {
     id: 3,
@@ -204,7 +204,7 @@ export const contactBranches: ContactBranch[] = [
     shortName: "Summit Branch",
     address: "Unnamed Road, Addis Ababa",
     phone: "+25198 604 0005",
-    image: "/images/Summit-Branch.jpg",
+    image: getSupabasePublicUrl("Pictures and vids", "Summit-Branch.jpg"),
   },
   {
     id: 4,
@@ -213,7 +213,7 @@ export const contactBranches: ContactBranch[] = [
     address:
       "Bole Airport Rd, Around FriendShip Hotel Kidus Bldg 3rd floor, Addis Ababa",
     phone: "+25190 929 7728",
-    image: "/images/Bole-Friendship-Branch.jpg",
+    image: getSupabasePublicUrl("Pictures and vids", "Bole-Friendship-Branch.jpg"),
   },
   {
     id: 5,
@@ -221,7 +221,7 @@ export const contactBranches: ContactBranch[] = [
     shortName: "Bole Medhanialem Branch",
     address: "Unnamed street, Addis Ababa",
     phone: "+25192 734 9509",
-    image: "/images/Bole-Medhanialem-Branch.jpg",
+    image: getSupabasePublicUrl("Pictures and vids", "Bole-Medhanialem-Branch.jpg"),
   },
   {
     id: 6,
@@ -229,7 +229,7 @@ export const contactBranches: ContactBranch[] = [
     shortName: "Abinet Branch",
     address: "NOBI Building Lideta, Abinet Square, Addis Ababa",
     phone: "601",
-    image: "/images/Abinet-Branch1.jpg?v=3",
+    image: getSupabasePublicUrl("Pictures and vids", "Abinet-Branch1.jpg"),
   },
   {
     id: 7,
@@ -237,7 +237,7 @@ export const contactBranches: ContactBranch[] = [
     shortName: "Lebu Branch",
     address: "Unnamed street, Addis Ababa",
     phone: "+25198 015 8220",
-    image: "/images/Lebu-Branch.jpg",
+    image: getSupabasePublicUrl("Pictures and vids", "Lebu-Branch.jpg"),
   },
   {
     id: 8,
@@ -245,8 +245,7 @@ export const contactBranches: ContactBranch[] = [
     shortName: "Bole Airport Branch",
     address: "2221 Cameroon St, Addis Ababa",
     phone: "+25196 802 9800",
-    image:
-      "/images/Bole-AirPort-Branch.png?v=3",
+    image: getSupabasePublicUrl("Pictures and vids", "Bole-AirPort-Branch.png"),
   },
   {
     id: 9,
@@ -254,7 +253,7 @@ export const contactBranches: ContactBranch[] = [
     shortName: "Bole Bulbula Branch",
     address: "Unnamed Road, Addis Ababa",
     phone: "+251985493231",
-    image: "/images/Bole-Bulbula-Branch1.png?v=4",
+    image: getSupabasePublicUrl("Pictures and vids", "Bole-Bulbula-Branch1.png"),
   },
   {
     id: 10,
@@ -262,6 +261,6 @@ export const contactBranches: ContactBranch[] = [
     shortName: "Hawassa Branch",
     address: "Bensa Daye Building, Hawassa",
     phone: "601",
-    image: "/images/Hawassa-Branch.png?v=3",
+    image: getSupabasePublicUrl("Pictures and vids", "Hawassa-Branch.png"),
   },
 ];

@@ -40,7 +40,7 @@ export const HomeHero = React.memo(function HomeHero({
           }}
           poster="/images/carousel-1.jpg"
         >
-          <source src="/hero-video.mp4" type="video/mp4" />
+          <source src="https://qisrodlshohwwddmzrng.supabase.co/storage/v1/object/public/Pictures%20and%20vids/hero-video.mp4" type="video/mp4" />
         </video>
         {/* Dark overlay for better text readability */}
         <div className="absolute inset-0 bg-black/50"></div>
