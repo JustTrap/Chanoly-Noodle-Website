@@ -1,4 +1,5 @@
 import Image from "next/image";
+import { cdnImage } from "@/lib/cdn";
 
 export function BranchesHero() {
   return (
@@ -6,7 +7,7 @@ export function BranchesHero() {
       {/* Background Image */}
       <div className="absolute inset-0 z-0">
         <Image
-          src="/images/DSC05955.jpg"
+          src={cdnImage("/images/DSC05955.jpg")}
           alt="Sizzling dish with green mojito representing our branches"
           fill
           sizes="100vw"

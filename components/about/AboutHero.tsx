@@ -1,4 +1,5 @@
 import Image from "next/image";
+import { cdnImage } from "@/lib/cdn";
 
 export function AboutHero() {
   return (
@@ -6,7 +7,7 @@ export function AboutHero() {
       {/* Background Image */}
       <div className="absolute inset-0 z-0">
         <Image
-          src="/images/about-chanoly-bg.jpg"
+          src={cdnImage("/images/about-chanoly-bg.jpg")}
           alt="About Chanoly background - warm outdoor dining scene with smoothie and noodles"
           fill
           sizes="100vw"

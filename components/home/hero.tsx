@@ -1,5 +1,6 @@
 "use client";
 import Image from "next/image";
+import { cdnImage } from "@/lib/cdn";
 import React, { useState } from "react";
 import HeroButton from "./HeroButton";
 
@@ -16,7 +17,7 @@ export const HomeHero = React.memo(function HomeHero({
       {/* Background (Image fallback always present) */}
       <div className="absolute inset-0 w-full h-full z-0">
         <Image
-          src="/images/carousel-1.jpg"
+          src={cdnImage("/images/carousel-1.jpg")}
           alt="Chanoly Noodle Restaurant"
           fill
           className="object-cover"
@@ -38,7 +39,7 @@ export const HomeHero = React.memo(function HomeHero({
             transform: 'scale(1.35)',
             transformOrigin: 'center center'
           }}
-          poster="/images/carousel-1.jpg"
+          poster={cdnImage("/images/carousel-1.jpg")}
         >
           <source src="https://qisrodlshohwwddmzrng.supabase.co/storage/v1/object/public/Pictures%20and%20vids/hero-video.mp4" type="video/mp4" />
         </video>

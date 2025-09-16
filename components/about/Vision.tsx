@@ -1,4 +1,5 @@
 import Image from "next/image";
+import { cdnImage } from "@/lib/cdn";
 
 export function Vision() {
   return (
@@ -6,7 +7,7 @@ export function Vision() {
       {/* Optimized Background Pattern Image */}
       <div className="absolute inset-0 z-0">
         <Image
-          src="/images/Background-Pattern.png"
+          src={cdnImage("/images/Background-Pattern.png")}
           alt="Background Pattern"
           fill
           className="object-cover"
@@ -64,7 +65,7 @@ export function Vision() {
         {/* Right Side - Full Height Image */}
         <div className="relative group overflow-hidden h-64 md:h-auto">
           <Image
-            src="/images/vision-mission-dining.jpg"
+            src={cdnImage("/images/vision-mission-dining.jpg")}
             alt="Chanoly's vision - elegant dining space with modern Asian fusion atmosphere"
             fill
             sizes="(max-width: 768px) 100vw, 50vw"
@@ -86,7 +87,7 @@ export function Vision() {
       {/* Chanoly Watermark - Positioned relative to entire section */}
       <div className="absolute -bottom-16 -left-2 opacity-30 z-20">
         <Image
-          src="/images/chanoly-noodle-logo.png"
+          src={cdnImage("/images/chanoly-noodle-logo.png")}
           alt="Chanoly Watermark"
           width={300}
           height={300}

@@ -1,5 +1,6 @@
 "use client";
 import Image from "next/image";
+import { cdnImage } from "@/lib/cdn";
 import { useState } from "react";
 import { Button } from "@/components/ui/button";
 import { Menu, X } from "lucide-react";
@@ -43,7 +44,7 @@ export function AboutHeader({
           <Link href="/" className="flex items-center group md:hidden order-2">
             <div className="w-10 h-6 mr-2 transition-transform duration-300 group-hover:scale-110">
               <Image
-                src="/images/chanoly-logo.png"
+                src={cdnImage("/images/chanoly-logo.png")}
                 alt="Chanoly Noodle Logo"
                 width={40}
                 height={24}
@@ -71,7 +72,7 @@ export function AboutHeader({
             <Link href="/" className="flex items-center group mx-8">
               <div className="w-32 h-12 md:w-40 md:h-16 transition-transform duration-300 group-hover:scale-110 flex items-center justify-center">
                 <Image
-                  src="/images/chanoly-noodle-center-logo21.png"
+                  src={cdnImage("/images/chanoly-noodle-center-logo21.png")}
                   alt="Chanoly Noodle Logo"
                   width={160}
                   height={64}
@@ -146,7 +147,7 @@ export function AboutHeader({
       >
         <Link href="/" className="block">
           <Image
-            src="/images/chanoly-logo.png"
+            src={cdnImage("/images/chanoly-logo.png")}
             alt="Chanoly Noodle Logo"
             width={144}
             height={88}

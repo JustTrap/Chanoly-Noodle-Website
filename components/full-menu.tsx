@@ -6,6 +6,7 @@ import { useEffect } from "react";
 import { MenuCard } from "./menu/menu-card";
 import { menuData } from "@/lib/data";
 import Image from "next/image";
+import { cdnImage } from "@/lib/cdn";
 
 interface FullMenuProps {
   isOpen: boolean;
@@ -46,7 +47,7 @@ export function FullMenu({ isOpen, onClose }: FullMenuProps) {
           {/* Chanoly Watermark - Centered in the middle */}
           <div className="absolute inset-0 flex items-center justify-center opacity-20 z-20 pointer-events-none">
             <Image
-              src="/images/chanoly-noodle-logo.png"
+              src={cdnImage("/images/chanoly-noodle-logo.png")}
               alt="Chanoly Watermark"
               width={600}
               height={600}

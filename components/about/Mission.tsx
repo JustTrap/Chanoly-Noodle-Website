@@ -1,4 +1,5 @@
 import Image from "next/image";
+import { cdnImage } from "@/lib/cdn";
 
 export function Mission() {
   return (
@@ -6,7 +7,7 @@ export function Mission() {
       {/* Optimized Background Pattern Image */}
       <div className="absolute inset-0 z-0">
         <Image
-          src="/images/Background-Pattern.png"
+          src={cdnImage("/images/Background-Pattern.png")}
           alt="Background Pattern"
           fill
           className="object-cover"
@@ -22,7 +23,7 @@ export function Mission() {
         {/* Left Side - Full Height Image */}
         <div className="relative group overflow-hidden h-64 md:h-auto">
           <Image
-            src="/images/vision-mission-dining.jpg"
+            src={cdnImage("/images/vision-mission-dining.jpg")}
             alt="Chanoly's mission - creating authentic Asian dining experiences"
             fill
             sizes="(max-width: 768px) 100vw, 50vw"

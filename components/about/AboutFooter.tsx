@@ -1,4 +1,5 @@
 import Image from "next/image";
+import { cdnImage } from "@/lib/cdn";
 import { Phone, Facebook, Instagram } from "lucide-react";
 import React from "react";
 import Link from "next/link";
@@ -17,7 +18,7 @@ export function AboutFooter() {
             <div className="flex items-center mb-4">
               <div className="w-32 h-16 md:w-40 md:h-20 transition-transform duration-300 hover:scale-110 flex items-center justify-center">
                 <Image
-                  src="/images/chanoly-noodle-center-logo21.png"
+                  src={cdnImage("/images/chanoly-noodle-center-logo21.png")}
                   alt="Chanoly Noodle Logo"
                   width={160}
                   height={64}
@@ -124,7 +125,7 @@ export function AboutFooter() {
                   {/* QR Code - Direct display without white background */}
                   <div className="w-48 h-48 rounded-xl shadow-lg">
                     <Image
-                      src="/images/Chanoly-QR.png"
+                      src={cdnImage("/images/Chanoly-QR.png")}
                       alt="Chanoly QR Code for Feedback"
                       width={192}
                       height={192}
