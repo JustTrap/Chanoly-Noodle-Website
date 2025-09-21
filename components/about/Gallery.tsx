@@ -51,7 +51,7 @@ export function Gallery() {
               onClick={() => openGalleryModal(index - 1)}
             >
               <Image
-                src={cdnImage(`gallery-${index}.jpg?v=1`)}
+                src={cdnImage(`gallery-${index}.jpg`)}
                 alt={`Gallery image ${index} - Chanoly restaurant dining experience`}
                 fill
                 sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw"
@@ -102,7 +102,7 @@ export function Gallery() {
             {/* Main Image */}
             <div className="relative w-full h-full flex items-center justify-center">
               <Image
-                src={cdnImage(`gallery-${currentImageIndex + 1}.jpg?v=1`)}
+                src={cdnImage(`gallery-${currentImageIndex + 1}.jpg`)}
                 alt={`Gallery image ${
                   currentImageIndex + 1
                 } - Chanoly restaurant dining experience`}
