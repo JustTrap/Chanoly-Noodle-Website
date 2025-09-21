@@ -44,20 +44,20 @@ export function Gallery() {
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-6">
-          {Array.from({ length: 17 }, (_, index) => index + 1).map((index) => (
+          {[1, 2, 3, 4, 5, 6].map((index) => (
             <div
               key={index}
               className="relative group overflow-hidden aspect-square bg-gray-100 rounded-lg cursor-pointer"
               onClick={() => openGalleryModal(index - 1)}
             >
               <Image
-                src={cdnImage(`gallery-${index}.jpg`)}
+                src={cdnImage(`gallery-${index}.jpg?v=1`)}
                 alt={`Gallery image ${index} - Chanoly restaurant dining experience`}
                 fill
                 sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw"
                 quality={85}
-                priority={index <= 6}
-                loading={index <= 6 ? "eager" : "lazy"}
+                priority={index <= 3}
+                loading={index <= 3 ? "eager" : "lazy"}
                 className="object-cover transition-transform duration-700 group-hover:scale-110 gallery-image image-optimized"
                 placeholder="blur"
                 blurDataURL="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAABAAEDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAv/xAAhEAACAQMDBQAAAAAAAAAAAAABAgMABAUGIWGRkqGx0f/EABUBAQEAAAAAAAAAAAAAAAAAAAMF/8QAGhEAAgIDAAAAAAAAAAAAAAAAAAECEgMRkf/aAAwDAQACEQMRAD8AltJagyeH0AthI5xdrLcNM91BF5pX2HaH9bcfaSXWGaRmknyJckliyjqTzSlT54b6bk+h0R//2Q=="
@@ -102,7 +102,7 @@ export function Gallery() {
             {/* Main Image */}
             <div className="relative w-full h-full flex items-center justify-center">
               <Image
-                src={cdnImage(`gallery-${currentImageIndex + 1}.jpg`)}
+                src={cdnImage(`gallery-${currentImageIndex + 1}.jpg?v=1`)}
                 alt={`Gallery image ${
                   currentImageIndex + 1
                 } - Chanoly restaurant dining experience`}
