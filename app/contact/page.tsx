@@ -8,6 +8,7 @@ import { ContactFooter } from "@/components/contact/Footer";
 import { contactBranches } from "@/lib/data";
 import { Header } from "@/components/Header";
 import { BeuDelivery } from "@/components/contact/BeuDelivery";
+import { DeliveryApps } from "@/components/contact/DeliveryApps";
 
 export default function ContactPage() {
   return (
@@ -18,9 +19,9 @@ export default function ContactPage() {
 
       <BranchContactsGrid branches={contactBranches} />
 
-      <GeneralContact />
+      <DeliveryApps />
 
-      <BeuDelivery />
+      <GeneralContact />
 
       <ContactCTA />
 
