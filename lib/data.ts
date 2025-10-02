@@ -260,7 +260,7 @@ export const contactBranches: ContactBranch[] = [
     name: "Chanoly Noodle | Hawassa Branch",
     shortName: "Hawassa Branch",
     address: "Bensa Daye Building, Hawassa",
-    phone: "601",
+    phone: "+251986150007",
     image: getSupabasePublicUrl("Pictures and vids", "Hawassa-Branch.png"),
   },
 ];
