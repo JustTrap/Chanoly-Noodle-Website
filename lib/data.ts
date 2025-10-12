@@ -104,7 +104,7 @@ export const branches = [
     shortName: "Sarbet Branch",
     address: "Mela Building, Egypt St, Addis Ababa",
     mapLink: "https://share.google/yT0U17MXF2WlEd46n",
-    image: getSupabasePublicUrl("Pictures and vids", "Sarbet-Branch.jpg"),
+    image: "https://qisrodlshohwwddmzrng.supabase.co/storage/v1/object/public/Pictures%20and%20vids/Sarbet-Branch1.jpg",
   },
   {
     id: 2,
@@ -145,7 +145,7 @@ export const branches = [
     shortName: "Abinet Branch",
     address: "NOBI Building Lideta, Abinet Square, Addis Ababa",
     mapLink: "https://share.google/DMe0BsY9cXkCgCgXQ",
-    image: getSupabasePublicUrl("Pictures and vids", "Abinet-Branch1.jpg"),
+    image: "https://qisrodlshohwwddmzrng.supabase.co/storage/v1/object/public/Pictures%20and%20vids/Abinet-Branch2.jpg",
   },
   {
     id: 7,
@@ -188,7 +188,7 @@ export const contactBranches: ContactBranch[] = [
     shortName: "Sarbet Branch",
     address: "Mela Building, Egypt St, Addis Ababa",
     phone: "+25193 646 8620",
-    image: getSupabasePublicUrl("Pictures and vids", "Sarbet-Branch.jpg"),
+    image: "https://qisrodlshohwwddmzrng.supabase.co/storage/v1/object/public/Pictures%20and%20vids/Sarbet-Branch1.jpg",
   },
   {
     id: 2,
@@ -229,7 +229,7 @@ export const contactBranches: ContactBranch[] = [
     shortName: "Abinet Branch",
     address: "NOBI Building Lideta, Abinet Square, Addis Ababa",
     phone: "601",
-    image: getSupabasePublicUrl("Pictures and vids", "Abinet-Branch1.jpg"),
+    image: "https://qisrodlshohwwddmzrng.supabase.co/storage/v1/object/public/Pictures%20and%20vids/Abinet-Branch2.jpg",
   },
   {
     id: 7,

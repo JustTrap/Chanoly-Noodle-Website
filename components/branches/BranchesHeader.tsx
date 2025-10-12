@@ -83,7 +83,7 @@ export function BranchesHeader({
 
             <Link
               href="/branches"
-              className="chanoly-nav hover:text-chanoly transition-all duration-300 text-base font-semibold tracking-wider hover:scale-105 font-showg"
+              className="chanoly-nav text-chanoly hover:text-chanoly-dark transition-all duration-300 text-base font-semibold tracking-wider hover:scale-105 font-showg"
             >
               BRANCHES
             </Link>
@@ -120,7 +120,7 @@ export function BranchesHeader({
               </button>
               <Link
                 href="/branches"
-                className="chanoly-nav hover:text-chanoly transition-all duration-300 text-base font-semibold tracking-wider py-2 font-showg"
+                className="chanoly-nav text-chanoly hover:text-chanoly-dark transition-all duration-300 text-base font-semibold tracking-wider py-2 font-showg"
                 onClick={() => setIsMobileMenuOpen(false)}
               >
                 BRANCHES
@@ -248,7 +248,7 @@ export function BranchesHeader({
                 </button>
                 <Link
                   href="/branches"
-                  className="chanoly-nav text-white hover:text-chanoly transition-all duration-300 text-sm font-semibold tracking-wider py-3 px-4 rounded-lg hover:bg-white/10"
+                  className="chanoly-nav text-chanoly hover:text-chanoly-dark transition-all duration-300 text-sm font-semibold tracking-wider py-3 px-4 rounded-lg hover:bg-white/10"
                   onClick={() => setIsMobileMenuOpen(false)}
                 >
                   BRANCHES
