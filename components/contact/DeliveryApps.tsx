@@ -56,6 +56,31 @@ export function DeliveryApps() {
   return (
     <section className="py-8 md:py-12 px-4 md:px-6 bg-white">
       <div className="max-w-6xl mx-auto space-y-10">
+        {/* Chanoly Delivery - Direct Call */}
+        <div className="grid md:grid-cols-2 gap-6 md:gap-8 items-center">
+          <div className="relative w-full max-w-[220px] md:max-w-[260px] mx-auto aspect-[4/3] rounded-lg overflow-hidden shadow-md bg-white p-3">
+            <Image
+              src="https://qisrodlshohwwddmzrng.supabase.co/storage/v1/object/public/Pictures%20and%20vids/Chnaoly-Delivery1.png"
+              alt="Chanoly Delivery"
+              fill
+              className="object-contain"
+              sizes="(max-width: 768px) 90vw, 40vw"
+            />
+          </div>
+          <div>
+            <h3 className="chanoly-heading text-xl md:text-2xl text-gray-900 mb-2 tracking-wider font-showg">Order with Chanoly Delivery</h3>
+            <p className="text-gray-600 mb-4 leading-relaxed text-sm md:text-base">Call directly and get your order delivered fast.</p>
+            <a
+              href="tel:601"
+              className="inline-flex items-center justify-center px-5 py-2.5 text-sm font-semibold rounded-md transition-all duration-300 hover:scale-[1.02]"
+              style={{ backgroundColor: "rgb(249, 115, 22)", color: "rgba(45, 75, 75, 1)" }}
+              aria-label="Call Chanoly Delivery at 601"
+            >
+              Call 601
+            </a>
+          </div>
+        </div>
+
         <AppCard
           title="Order with Beu Delivery"
           description="Get your favorite Chanoly dishes delivered fast with the Beu Delivery app. Download on your device and place your order in seconds."
@@ -71,6 +96,7 @@ export function DeliveryApps() {
           appStoreUrl="https://apps.apple.com/fm/app/deliver-addis/id1503459669"
           playUrl="https://play.google.com/store/apps/details?id=com.deliveraddis.deliveraddis&pcampaignid=web_share"
         />
+
       </div>
     </section>
   );
