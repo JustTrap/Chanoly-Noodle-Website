@@ -60,7 +60,7 @@ export function DeliveryApps() {
         <div className="grid md:grid-cols-2 gap-6 md:gap-8 items-center">
           <div className="relative w-full max-w-[220px] md:max-w-[260px] mx-auto aspect-[4/3] rounded-lg overflow-hidden shadow-md bg-white p-3">
             <Image
-              src="https://qisrodlshohwwddmzrng.supabase.co/storage/v1/object/public/Pictures%20and%20vids/Chnaoly-Delivery1.png"
+              src="https://qisrodlshohwwddmzrng.supabase.co/storage/v1/object/public/Pictures%20and%20vids/Chnaoly-Delivery2.jpg"
               alt="Chanoly Delivery"
               fill
               className="object-contain"
