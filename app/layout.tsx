@@ -19,8 +19,8 @@ const nunito = Nunito({
 });
 
 export const metadata: Metadata = {
-  title: "Chanoly Restaurant",
-  description: "Authentic Asian cuisine in Addis Ababa",
+  title: "Chanoly Noodle",
+  description: "Fresh Noodle, Bold Flavors",
   generator: "v0.app",
 };
 
