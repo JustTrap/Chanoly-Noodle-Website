@@ -42,7 +42,7 @@ export function Vision() {
               <div className="space-y-4">
                 <h3 className="text-2xl md:text-3xl font-bold text-chanoly font-showg">Our Mission</h3>
                 <p className="transition-colors duration-300 font-bold">
-                  Chanoly exists to bring people together through authentic dining experiences. We serve fresh, high-quality food made with care, while creating a welcoming atmosphere that celebrates community, culture, and the joy of sharing meals.
+                  Provide our customers fresh fusion foods by bringing together Flavour around the world.
                 </p>
               </div>
 
@@ -50,7 +50,7 @@ export function Vision() {
               <div className="space-y-4">
                 <h3 className="text-2xl md:text-3xl font-bold text-chanoly font-showg">Our Vision</h3>
                 <p className="transition-colors duration-300 font-bold">
-                  Chanoly aims to become a leading restaurant brand recognized for excellence in flavor, service, and innovation. We envision a future where every Chanoly guest feels connected, valued, and inspired by food that nourishes both body and soul.
+                  To become the leading global destination for fusion foods, where people experience diverse cultures through flavor. innovation, and freshness.
                 </p>
               </div>
             </div>
