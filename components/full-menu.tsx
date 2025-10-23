@@ -45,7 +45,7 @@ export function FullMenu({ isOpen, onClose }: FullMenuProps) {
       >
         <div className="bg-white rounded-lg max-w-6xl w-full max-h-[90vh] overflow-y-auto relative">
           {/* Chanoly Watermark - Centered in the middle */}
-          <div className="absolute inset-0 flex items-center justify-center opacity-20 z-20 pointer-events-none">
+          <div className="absolute inset-0 flex items-center justify-center opacity-10 z-20 pointer-events-none">
             <Image
               src={cdnImage("/images/chanoly-noodle-logo.png")}
               alt="Chanoly Watermark"

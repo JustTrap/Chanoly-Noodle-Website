@@ -76,7 +76,7 @@ export function HomeOurStory() {
       </div>
 
       {/* Chanoly Watermark - Positioned relative to entire section */}
-      <div className="absolute -bottom-16 -right-2 opacity-30 z-20">
+      <div className="absolute -bottom-16 -right-2 opacity-15 z-20">
         <Image
           src="/images/chanoly-noodle-logo.png"
           alt="Chanoly Watermark"
